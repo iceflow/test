@@ -1,0 +1,65 @@
+2009.03.16
+  Mode: MASTER Backup
+	1. Cross Backup :  
+		Desc: GW provides only one working IP, RouterA RouterB backup and ICEFLOW_A ICEFLOW_B backup
+			Working sequence:
+				RotuerA -> RouterB
+				ICEFLOW_A -> ICEFLOW_B
+
+				ICEFLOW_A(WAN) -> ICEFLOW_B(WAN) -> ICEFLOW_A(WAN1) -> ICEFLOW_B(WAN1)
+		
+				  GW
+			  ____ |_____
+			 |          |
+		   RouterA    RouterB
+		   /    |     /    \
+          /     |____/__    \
+         /   _______/   \    \
+        /    |           \    \
+	    W   W1            W    W1
+      ICEFLOW_A          ICEFLOW_B
+          L                  L
+
+ICELOFW_A and ICEFLOW_B's WAN WAN1 LAN MAC could be the same.
+	1) Master Process:
+		if WAN up
+			Check Virtual_WAN, add it
+			Check Virtual_LAN, add it
+			Check Virtual_VPN, start it
+
+			if WAN1 UP
+				Check Virtual_WAN1, add it
+			else
+				Check Virtual_WAN1, remove it
+			endif
+		else if WAN down
+			Check Virtual_WAN, remove it
+			if BACKUP WAN up
+				Check Virtual_LAN, remove it
+				Check Virtual_VPN, stop it
+			else if WAN1 UP
+				Check Virtual_WAN1, add it
+				Check Virtual_LAN, add it
+				Check Virtual_VPN, start it
+			else
+				Check Virtual_WAN1, remove it
+			endif
+		endif
+	2) Backup Process:
+		if WAN up
+			Check Virtual_WAN, add it
+			Check Virtual_LAN, add it
+			Check Virtual_VPN, start it
+		else if WAN down
+			Check Virtual_WAN, remove it
+			if BACKUP WAN up
+				Check Virtual_LAN, remove it
+				Check Virtual_VPN, stop it
+			else if WAN1 UP
+				Check Virtual_WAN1, add it
+				Check Virtual_LAN, add it
+				Check Virtual_VPN, start it
+			else
+				Check Virtual_WAN1, remove it
+			endif
+		endif

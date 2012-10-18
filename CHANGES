@@ -1,0 +1,132 @@
+2011-9-16
+	1. send_arp 结构完全混乱，重新梳理，参数调整
+		./send_arp src_ip src_mac out_dev
+
+2011-8-24
+	1. MAC地址广播失败: get_mac_addr -> libifcommon.a get_mac()
+	2. send_arp失效，重新研究
+
+
+2011-7-1
+	1. 使用通用include 和 libifcomman.a
+
+2010-11-4
+	1. SLES11_SP1 移植
+
+
+=====================================================================
+
+
+2010-9-1
+	1. sync_conf.sh CPU消耗原因找到，是同步没有勾选PPTP TAR_FILE 文件没有清空，循环累加，导致备份文件巨大，var分区被占满
+	
+
+2010-7-22
+	1. sync_conf.sh：
+		1) 时间间隔从10s 变为 60s, 减少CPU消耗
+		2) ssl webssl 用户变动 echo "PROFILE=yes" >> ${PLUS_NOTICE}
+	2.  Internet : // inernet vpn stop, add backup vpn routes -> VPN device
+		ip_add_static_route();
+
+2010-6-21
+	1. 物理接口DOWN 后，虚接口也为DOWN
+	2. 没有启用监测，不需要加载WANx须IP
+
+2010-4-5
+	DEBUG 1. 修改 cluster_utils.c -> client_reset() 只记录日志，不实际生效
+
+2010-3-30
+	1. get_status() 存在读取文件内容失败的情况。
+		cluster_recv()每两秒接收到对端信息，写状态文件。存在打开写的时候，
+		cluster_send()中 get_status()读取为空，误认为 DOWN 的可能性。
+		1) 解决方法： 加读写文件锁
+				save_status() /var/tmp/.cluster.master.lock
+				get_status() 检查到锁后等待，100ms后检查
+		2) 防止一端短暂线路颠簸(5,6秒)，cluster_recv()只有在连续收到对方3个DOWN，或者超时才认为状态发生变化,再更新status文件
+		3) 文件不存在，get_status()返回为非0
+
+2009.03.20
+	1. safe_cluster: lighttpd : sync Web 
+	2. conf sync: pptp, ssl, webssl
+	3. Cluster :
+		Mode 3: Device priority , Line prioriry support
+	4. Adding sync_conf.sh
+
+2009.03.15
+	1. Adding Mutiple VWANs support
+		cluster_send: Do Status Control 
+
+2008.04.06
+	1. Multiple VPN Group support
+	2. Cluster : 
+		1) Master Process:
+			if WAN up
+				Check Virtual_WAN, add it
+				Check Virtual_LAN, add it
+				Check Virtual_VPN, start it
+
+				if WAN1 UP
+					Check Virtual_WAN1, add it
+				else 
+					Check Virtual_WAN1, remove it
+				endif
+			else if WAN down
+				Check Virtual_WAN, remove it
+				if BACKUP WAN up
+					Check Virtual_LAN, remove it
+					Check Virtual_VPN, stop it
+				else if WAN1 UP
+					Check Virtual_WAN1, add it
+					Check Virtual_LAN, add it
+					Check Virtual_VPN, start it
+				else 
+					Check Virtual_WAN1, remove it
+				endif
+			endif	
+		2) Backup Process:
+			if WAN up
+				Check Virtual_WAN, add it
+				Check Virtual_LAN, add it
+				Check Virtual_VPN, start it
+			else if WAN down
+				Check Virtual_WAN, remove it
+				if BACKUP WAN up
+					Check Virtual_LAN, remove it
+					Check Virtual_VPN, stop it
+				else if WAN1 UP
+					Check Virtual_WAN1, add it
+					Check Virtual_LAN, add it
+					Check Virtual_VPN, start it
+				else 
+					Check Virtual_WAN1, remove it
+				endif
+			endif	
+	
+
+2006.06.01
+	cluster_recv:	1.1
+        MAS/BAK:
+                FOR totally hot backup, one WAN IP and one LAN IP
+        MODIFY: 
+                [BACKUP]->[recv]->[when MASTER down] process changes
+        <<==========  old
+        recv:
+                2). when MASTER down
+                        a). when local up.
+                                Check Virtual_WAN, add it
+                                Check Virtual_LAN, add it
+                                Check Virtual_VPN, start it
+                        b). when local down. 
+                                do nothing
+        ==========>>  now 
+        recv:
+                2). when MASTER down
+                        Check Virtual_WAN, add it
+                        Check Virtual_LAN, add it
+                        Check Virtual_VPN, start it
+
+        ==========================================================
+
+2006.05.09	
+	safe_plus: v1.0
+		safe_plus_stop kill don't test pid > 0 , so pid = 0 , killall all

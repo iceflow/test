@@ -1,0 +1,67 @@
+2. MODE 2 VPN-INT
+vpn        internet
+
+recv <-----   send
+
+send ----->   recv
+
+[VPN]:
+	send: Checking wan status
+	    1). when local up
+		Check Virtual_VPN, start it
+	    2). when local down
+		do nothing
+
+	recv:
+	    1). when INTERNET up
+                when local up
+                    when INTERNET Virtual LAN activate and local Virtual LAN activate
+	                Check Virtual_LAN, remove it
+                when local down
+                    when INTERNET VPN activate and local Virtual VPN activate
+	                Check VPN, stop it
+	    2). when INTERNET down . 
+	        a). when local up. 
+		    Check Virtual_LAN, add it
+	        b). when local  down
+			if ( local wan1 up )
+			    wan1 Check Virtual_VPN, start it
+			    Check Virtual_LAN, add it
+			else 
+			    if ( INTERNET VPN up ) stop vpn if running 
+
+[INT]:
+	send: Checking wan status
+	    1). when local up
+	        Check Virtual_LAN, add it
+	    2). when local down. do nothing
+	
+	recv:
+	    1). when VPN Router up
+		when VPN VPN activate and local VPN activate
+		    Check VPN, stop it
+
+                when local up
+		    do nothing
+                when local down
+                    when VPN Virtual LAN activate and local Virtual LAN activate
+	                Check Virtual_LAN, remove it
+
+	    2). when VPN Router down
+	        a). when local up. 
+		    Check Virtual_VPN, start it
+		b). when local down. 
+		    if ( local wan1 up )
+		        if ( VPN wan1 up ) {
+				Stop vpn if running
+				Check Virtual_LAN, remove it
+			} else if ( VPN wan1 down ) {
+				Check Virtual_VPN, start it
+				Check Virtual_LAN, add it
+			}
+		    else if ( local wan1 down ) {
+			    Stop vpn if running
+			    Check Virtual_LAN, remove it
+		    }
+
+

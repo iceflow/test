@@ -1,0 +1,1784 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.7	//
+ACCESS_IPT_FILE	include/filedefine.h	26;"	d
+ACCESS_IPT_FILE_C	include/filedefine.h	207;"	d
+ACCESS_LOGFILE	include/filedefine.h	371;"	d
+ACCESS_RESULT_FILE	include/filedefine.h	372;"	d
+ACTION_ECHO	include/localdef.h	454;"	d
+ACTION_SUBMIT	include/localdef.h	455;"	d
+ACTIVE_STATUS	local.h	89;"	d
+ADAPTER_SERVER_CMD	include/filedefine.h	899;"	d
+ADAPTER_SERVER_PIDFILE	include/filedefine.h	900;"	d
+ADAPTER_SERVER_SOCKNAME	include/filedefine.h	898;"	d
+ADDRESS_GROUP_CONF_FILE	include/filedefine.h	27;"	d
+ADDRESS_GROUP_CONF_FILE_C	include/filedefine.h	208;"	d
+ADDRESS_LIST_CONF_FILE	include/filedefine.h	28;"	d
+ADDRESS_LIST_CONF_FILE_C	include/filedefine.h	209;"	d
+ADDRESS_LIST_IMPORT_FILE	include/filedefine.h	373;"	d
+ADD_LINKS_CMD	include/filedefine.h	374;"	d
+ADMIN_CONF_FILE	include/filedefine.h	29;"	d
+ADMIN_CONF_FILE_C	include/filedefine.h	210;"	d
+ADMIN_PRIV	include/localdef.h	220;"	d
+ADSL1_DAEMON	include/filedefine.h	375;"	d
+ADSL1_DAEMON_PID_FILE	include/filedefine.h	376;"	d
+ADSL1_PPPD_PID_FILE	include/filedefine.h	377;"	d
+ADSL1_START	include/filedefine.h	378;"	d
+ADSL1_STOP	include/filedefine.h	379;"	d
+ADSL2_DAEMON	include/filedefine.h	380;"	d
+ADSL2_DAEMON_PID_FILE	include/filedefine.h	381;"	d
+ADSL2_PPPD_PID_FILE	include/filedefine.h	382;"	d
+ADSL2_START	include/filedefine.h	383;"	d
+ADSL2_STOP	include/filedefine.h	384;"	d
+ADSL3_DAEMON	include/filedefine.h	385;"	d
+ADSL3_DAEMON_PID_FILE	include/filedefine.h	386;"	d
+ADSL3_PPPD_PID_FILE	include/filedefine.h	387;"	d
+ADSL3_START	include/filedefine.h	388;"	d
+ADSL3_STOP	include/filedefine.h	389;"	d
+ADSLACCOUNT_CONF_FILE	include/filedefine.h	30;"	d
+ADSLACCOUNT_CONF_FILE_C	include/filedefine.h	211;"	d
+ADSL_CONF_LOCKFILE	include/filedefine.h	31;"	d
+ADSL_CONF_LOCKFILE_C	include/filedefine.h	212;"	d
+ADSL_DAEMON	include/filedefine.h	390;"	d
+ADSL_DAEMON_PID_FILE	include/filedefine.h	391;"	d
+ADSL_PPPD	include/filedefine.h	392;"	d
+ADSL_PPPD_PID_FILE	include/filedefine.h	393;"	d
+ADSL_SETUP	include/filedefine.h	394;"	d
+ADSL_START	include/filedefine.h	395;"	d
+ADSL_STOP	include/filedefine.h	396;"	d
+ADVANCE_FILTER_URL_LIST_CONF_FILE	include/filedefine.h	32;"	d
+ADVANCE_FILTER_URL_LIST_CONF_FILE_C	include/filedefine.h	213;"	d
+ADVANCE_FILTER_URL_STATUS	include/localdef.h	/^	ADVANCE_FILTER_URL_STATUS,$/;"	e	enum:_button_actions
+ALL	include/localdef.h	173;"	d
+APP	Makefile	/^APP=cluster_send cluster_recv safe_cluster sync_conf.sh$/;"	m
+APPEXT_USER_RULE_CONF_FILE	include/filedefine.h	33;"	d
+APP_GROUP_CONF_FILE	include/filedefine.h	34;"	d
+APP_GROUP_CONF_FILE_C	include/filedefine.h	214;"	d
+APP_LIST_CONF_FILE	include/filedefine.h	35;"	d
+APP_LIST_CONF_FILE_C	include/filedefine.h	215;"	d
+APP_LIST_IMPORT_FILE	include/filedefine.h	397;"	d
+APP_VERSION_FILE	include/filedefine.h	36;"	d
+ARCH	Makefile	/^ARCH=\/ice\/mod\/cluster$/;"	m
+ARP	local.h	138;"	d
+ARP_CMD	include/filedefine.h	398;"	d
+ASTERISK	include/localdef.h	99;"	d
+AUTH_END	include/localdef.h	/^enum enum_auth_mode { AUTH_NONE, AUTH_TEXT, AUTH_MD5, AUTH_END };$/;"	e	enum:enum_auth_mode
+AUTH_MD5	include/localdef.h	/^enum enum_auth_mode { AUTH_NONE, AUTH_TEXT, AUTH_MD5, AUTH_END };$/;"	e	enum:enum_auth_mode
+AUTH_NONE	include/localdef.h	/^enum enum_auth_mode { AUTH_NONE, AUTH_TEXT, AUTH_MD5, AUTH_END };$/;"	e	enum:enum_auth_mode
+AUTH_TEXT	include/localdef.h	/^enum enum_auth_mode { AUTH_NONE, AUTH_TEXT, AUTH_MD5, AUTH_END };$/;"	e	enum:enum_auth_mode
+AWK	include/filedefine.h	399;"	d
+AWK	local.h	140;"	d
+BACKDIR	include/filedefine.h	400;"	d
+BACKLIST	include/filedefine.h	37;"	d
+BACKLIST_C	include/filedefine.h	216;"	d
+BACKMAX	include/localdef.h	418;"	d
+BACKUPRECV	include/filedefine.h	401;"	d
+BACKUPSEND	include/filedefine.h	402;"	d
+BACK_STRING	include/localdef.h	31;"	d
+BCRELAY_CMD	include/filedefine.h	403;"	d
+BCRELAY_CONF_FILE	include/filedefine.h	38;"	d
+BCRELAY_CONF_FILE_C	include/filedefine.h	217;"	d
+BCRELAY_PIDFILE	include/filedefine.h	404;"	d
+BCRELAY_STATUS	include/localdef.h	/^	BCRELAY_STATUS,$/;"	e	enum:_button_actions
+BIN_APP	Makefile	/^BIN_APP=send_arp$/;"	m
+BIN_ARCH	Makefile	/^BIN_ARCH=\/ice\/bin$/;"	m
+BLANK_STRING	include/localdef.h	32;"	d
+BLKSIZE	include/utils.h	5;"	d
+BOOT_CONF_FILE	include/filedefine.h	39;"	d
+BOOT_CONF_FILE_C	include/filedefine.h	218;"	d
+BOOT_LAN_FILE	include/filedefine.h	40;"	d
+BOOT_LAN_FILE	local.h	20;"	d
+BOOT_LAN_FILE_C	include/filedefine.h	219;"	d
+BOOT_MOUNT_POINT	include/filedefine.h	405;"	d
+BOOT_ROUTE_FILE	include/filedefine.h	41;"	d
+BOOT_ROUTE_FILE	local.h	114;"	d
+BOOT_ROUTE_FILE_C	include/filedefine.h	220;"	d
+BOOT_WAN_FILE	include/filedefine.h	42;"	d
+BOOT_WAN_FILE	local.h	19;"	d
+BOOT_WAN_FILE_C	include/filedefine.h	221;"	d
+BRIDGE	include/filedefine.h	406;"	d
+BYPASS	include/filedefine.h	407;"	d
+CABACKLIST	include/filedefine.h	222;"	d
+CACHE_CONF_FILE	include/filedefine.h	43;"	d
+CACHE_CONF_FILE_C	include/filedefine.h	223;"	d
+CARD_FAILED	include/filedefine.h	408;"	d
+CAT	include/filedefine.h	409;"	d
+CA_CHECK	include/filedefine.h	410;"	d
+CA_CHECK_CMD	include/filedefine.h	411;"	d
+CA_DIR	include/filedefine.h	44;"	d
+CC	Makefile	/^CC=gcc $/;"	m
+CFLAGS	Makefile	/^CFLAGS= -Wall -O2 -march=i686$/;"	m
+CHAP_SECRETS_BAK_FILE	include/filedefine.h	45;"	d
+CHAP_SECRETS_FILE	include/filedefine.h	46;"	d
+CHAP_SECRETS_FILE_C	include/filedefine.h	224;"	d
+CHECK_INTERVAL	safe_cluster.c	17;"	d	file:
+CHECK_LICENSE	include/filedefine.h	919;"	d
+CLEAR	include/filedefine.h	412;"	d
+CLEAR_LINKS_CMD	include/filedefine.h	413;"	d
+CLI	include/filedefine.h	414;"	d
+CLI	local.h	46;"	d
+CLIENT_CORE	include/filedefine.h	874;"	d
+CLIENT_PLUS	include/filedefine.h	873;"	d
+CLUSTER_BACKUP	include/localdef.h	450;"	d
+CLUSTER_CONF_FILE	include/filedefine.h	47;"	d
+CLUSTER_CONF_FILE	local.h	17;"	d
+CLUSTER_CONF_FILE_C	include/filedefine.h	225;"	d
+CLUSTER_INTERNET	include/localdef.h	448;"	d
+CLUSTER_MASTER	include/localdef.h	449;"	d
+CLUSTER_MODE_0	include/localdef.h	435;"	d
+CLUSTER_MODE_0	local.h	53;"	d
+CLUSTER_MODE_1	include/localdef.h	436;"	d
+CLUSTER_MODE_1	local.h	54;"	d
+CLUSTER_MODE_2	include/localdef.h	437;"	d
+CLUSTER_MODE_2	local.h	55;"	d
+CLUSTER_MODE_3	include/localdef.h	438;"	d
+CLUSTER_MODE_3	local.h	56;"	d
+CLUSTER_MODE_4	include/localdef.h	439;"	d
+CLUSTER_MODE_MAS_BAK	include/localdef.h	444;"	d
+CLUSTER_MODE_MAS_BAK	local.h	61;"	d
+CLUSTER_MODE_NONE	include/localdef.h	441;"	d
+CLUSTER_MODE_NONE	local.h	58;"	d
+CLUSTER_MODE_VPN_BAK	include/localdef.h	442;"	d
+CLUSTER_MODE_VPN_BAK	local.h	59;"	d
+CLUSTER_MODE_VPN_INT	include/localdef.h	443;"	d
+CLUSTER_MODE_VPN_INT	local.h	60;"	d
+CLUSTER_NONE	include/localdef.h	451;"	d
+CLUSTER_RECV	local.h	26;"	d
+CLUSTER_RECV_OBJ	Makefile	/^CLUSTER_RECV_OBJ:= cluster_recv.o $(OBJ) $(OBJ1)$/;"	m
+CLUSTER_RECV_PIDFILE	local.h	23;"	d
+CLUSTER_RECV_VERSION	local.h	6;"	d
+CLUSTER_RUNNING	include/filedefine.h	415;"	d
+CLUSTER_RUNNING	local.h	41;"	d
+CLUSTER_SEND	local.h	25;"	d
+CLUSTER_SEND_OBJ	Makefile	/^CLUSTER_SEND_OBJ:= cluster_send.o $(OBJ) $(OBJ1)$/;"	m
+CLUSTER_SEND_PIDFILE	local.h	22;"	d
+CLUSTER_SEND_VERSION	local.h	5;"	d
+CLUSTER_STATUS	include/localdef.h	/^	CLUSTER_STATUS,$/;"	e	enum:_button_actions
+CLUSTER_TYPE_BACKUP	local.h	77;"	d
+CLUSTER_TYPE_INTERNET	local.h	74;"	d
+CLUSTER_TYPE_MASTER	local.h	76;"	d
+CLUSTER_TYPE_NONE	local.h	73;"	d
+CLUSTER_TYPE_VPN	local.h	75;"	d
+CLUSTER_VPN	include/localdef.h	447;"	d
+CMD_FILE1	include/filedefine.h	416;"	d
+CMD_FILE2	include/filedefine.h	417;"	d
+CMD_FILE3	include/filedefine.h	418;"	d
+CMD_FILE4	include/filedefine.h	419;"	d
+CMD_FILE5	include/filedefine.h	420;"	d
+CM_CONF_LOCKFILE	include/filedefine.h	48;"	d
+CM_CONF_LOCKFILE_C	include/filedefine.h	226;"	d
+CONFIG_SETUP_FILE	include/filedefine.h	50;"	d
+CONFIG_SETUP_FILE_C	include/filedefine.h	228;"	d
+CONF_DB	include/filedefine.h	51;"	d
+CONF_DB_C	include/filedefine.h	229;"	d
+CONF_DB_C_BAK	include/filedefine.h	230;"	d
+CONF_DB_C_BAK_MODE_CLEAR	include/filedefine.h	231;"	d
+CONF_DEV	include/localdef.h	538;"	d
+CONF_EXPORT_DHCP_FILE	include/filedefine.h	421;"	d
+CONF_EXPORT_IP_MAC_FILE	include/filedefine.h	422;"	d
+CONF_LOGO	include/filedefine.h	423;"	d
+CONF_MODIFY_REQ	include/adapter.h	24;"	d
+CONF_MODIFY_REQ_LEN	include/adapter.h	75;"	d
+CONF_MODIFY_RES	include/adapter.h	25;"	d
+CONF_MODIFY_RES_LEN	include/adapter.h	76;"	d
+CONF_MOUNT_POINT	include/filedefine.h	232;"	d
+CONF_OPT_ADD	include/adapter.h	/^    CONF_OPT_ADD=0,         \/\/ 追加数据$/;"	e	enum:_enum_conf_opt
+CONF_OPT_DEL	include/adapter.h	/^    CONF_OPT_DEL=2,         \/\/ 删除匹配key的所有行$/;"	e	enum:_enum_conf_opt
+CONF_OPT_DEL_POS	include/adapter.h	/^    CONF_OPT_DEL_POS=9      \/\/ 删除指定行数据$/;"	e	enum:_enum_conf_opt
+CONF_OPT_INS_AFTER	include/adapter.h	/^    CONF_OPT_INS_AFTER=4,   \/\/ 插入到第一次匹配key所在行之后 $/;"	e	enum:_enum_conf_opt
+CONF_OPT_INS_BEFORE	include/adapter.h	/^    CONF_OPT_INS_BEFORE=3,  \/\/ 插入到第一次匹配key所在行之前$/;"	e	enum:_enum_conf_opt
+CONF_OPT_INS_BY_IP	include/adapter.h	/^    CONF_OPT_INS_BY_IP=6,   \/\/ value内第一个字段为IP字符串, 比对每行第一个字段，转换为主机字节序比较, 插入到第一个小于的行前$/;"	e	enum:_enum_conf_opt
+CONF_OPT_INS_BY_NAME	include/adapter.h	/^    CONF_OPT_INS_BY_NAME=5, \/\/ value内第一个字段为NAME, 比对每行第一个字段，文字比较顺序, 插入到第一个小于的行前$/;"	e	enum:_enum_conf_opt
+CONF_OPT_INS_BY_POS	include/adapter.h	/^    CONF_OPT_INS_BY_POS=7,  \/\/ value内第一个字段为POS字符串, 比对每行第一个字段，转换为int, 插入到第一个小于的行前$/;"	e	enum:_enum_conf_opt
+CONF_OPT_MOD	include/adapter.h	/^    CONF_OPT_MOD=1,         \/\/ 修改第一次匹配key所在行$/;"	e	enum:_enum_conf_opt
+CONF_OPT_MOD_POS	include/adapter.h	/^    CONF_OPT_MOD_POS=8,     \/\/ 修改指定行数据$/;"	e	enum:_enum_conf_opt
+CONF_PRIORITY_PERIODIC	include/adapter.h	/^    CONF_PRIORITY_PERIODIC=1    \/\/ 周期或者定量处理(默认20行)$/;"	e	enum:_enum_conf_priority
+CONF_PRIORITY_REALTIME	include/adapter.h	/^    CONF_PRIORITY_REALTIME=0,   \/\/ 实时处理$/;"	e	enum:_enum_conf_priority
+CONF_REQ	include/adapter.h	/^} CONF_REQ;$/;"	t	typeref:struct:_conf_req
+CONF_RES	include/adapter.h	/^} CONF_RES;$/;"	t	typeref:struct:_conf_res
+CONF_SHADOW_FILE	include/filedefine.h	233;"	d
+CONF_SPLASH	include/filedefine.h	424;"	d
+CONF_TYPE_FILE	include/adapter.h	/^    CONF_TYPE_FILE=0,       \/\/ 文件数据库系统，KEY,VALUE格式$/;"	e	enum:_enum_conf_type
+CONF_TYPE_MMAP	include/adapter.h	/^    CONF_TYPE_MMAP=1,       \/\/ 文件数据库系统, MMAP方式，大并发优化处理$/;"	e	enum:_enum_conf_type
+CONF_TYPE_MYSQL	include/adapter.h	/^    CONF_TYPE_MYSQL=10,     \/\/ 数据库系统, Mysql$/;"	e	enum:_enum_conf_type
+CONF_TYPE_ORACLE	include/adapter.h	/^    CONF_TYPE_ORACLE=11     \/\/ 数据库系统, Oracle$/;"	e	enum:_enum_conf_type
+CONN_CLEAR	include/filedefine.h	425;"	d
+CONN_PARSE_CMD	include/filedefine.h	426;"	d
+CONTACT_CONF_FILE	include/filedefine.h	52;"	d
+CONTACT_CONF_FILE_C	include/filedefine.h	234;"	d
+COPY	include/filedefine.h	427;"	d
+CRONTAB_ROOT	include/filedefine.h	235;"	d
+CRON_IPT_CMD	include/filedefine.h	428;"	d
+CRON_IPT_PIDFILE	include/filedefine.h	429;"	d
+CUT	include/filedefine.h	430;"	d
+CheckRunning	a/utils.c	/^int CheckRunning(const char *pidfilename, const char *cmdline)$/;"	f	signature:(const char *pidfilename, const char *cmdline)
+CheckRunning	a/utils.h	/^extern int CheckRunning(const char *pidfilename, const char *cmdline);$/;"	p	signature:(const char *pidfilename, const char *cmdline)
+Check_File_Exist	a/utils.c	/^int Check_File_Exist(const char *filename)$/;"	f	signature:(const char *filename)
+Check_File_Exist	a/utils.h	/^extern int Check_File_Exist(const char *filename);$/;"	p	signature:(const char *filename)
+DAEMON	include/filedefine.h	431;"	d
+DAEMON_INIT_PID_FILE	include/filedefine.h	432;"	d
+DAEMON_INIT_PID_FILE	local.h	120;"	d
+DAEMON_PID_FILE	include/filedefine.h	433;"	d
+DAEMON_PID_FILE	local.h	121;"	d
+DAEMON_PORT	local.h	136;"	d
+DATE	include/filedefine.h	434;"	d
+DB_OPERATION_LOCKFILE	include/filedefine.h	435;"	d
+DDN_CONF_LOCKFILE	include/filedefine.h	53;"	d
+DDN_CONF_LOCKFILE_C	include/filedefine.h	236;"	d
+DEBUG_FILE	include/localdef.h	542;"	d
+DEBUG_LOGFILE	include/filedefine.h	436;"	d
+DEBUG_PIPE_FILE	include/filedefine.h	437;"	d
+DEBUG_PIPE_LOGFILE	include/filedefine.h	438;"	d
+DEBUG_SSL_CONTROLLER	include/filedefine.h	933;"	d
+DEFAULT_3G_DEV	include/interface.h	36;"	d
+DEFAULT_3G_DEV	include/localdef.h	586;"	d
+DEFAULT_DEV_DEFINE	local.h	44;"	d
+DEFAULT_FUNC_DEV	include/interface.h	31;"	d
+DEFAULT_FUNC_DEV	include/interface.h	41;"	d
+DEFAULT_GROUP_ID	include/localdef.h	593;"	d
+DEFAULT_HB_PLUS_PORT	include/localdef.h	588;"	d
+DEFAULT_INTERVAL	include/localdef.h	662;"	d
+DEFAULT_LAN1_DEV	include/interface.h	30;"	d
+DEFAULT_LAN1_DEV	include/interface.h	44;"	d
+DEFAULT_LAN_DEV	include/interface.h	29;"	d
+DEFAULT_LAN_DEV	include/interface.h	39;"	d
+DEFAULT_MAXLIMIT	include/localdef.h	601;"	d
+DEFAULT_TTL	include/localdef.h	600;"	d
+DEFAULT_WAN1_DEV	include/interface.h	33;"	d
+DEFAULT_WAN1_DEV	include/interface.h	42;"	d
+DEFAULT_WAN2_DEV	include/interface.h	34;"	d
+DEFAULT_WAN2_DEV	include/interface.h	45;"	d
+DEFAULT_WAN3_DEV	include/interface.h	35;"	d
+DEFAULT_WAN3_DEV	include/interface.h	46;"	d
+DEFAULT_WAN_3G_DEV	include/filedefine.h	439;"	d
+DEFAULT_WAN_DEV	include/interface.h	32;"	d
+DEFAULT_WAN_DEV	include/interface.h	40;"	d
+DEV_ACTIVE	include/localdef.h	/^enum _dev_types { DEV_ACTIVE, DEV_PASSIVE, DEV_SELECT };$/;"	e	enum:_dev_types
+DEV_DEFINE	include/filedefine.h	54;"	d
+DEV_DEFINE_C	include/filedefine.h	237;"	d
+DEV_PASSIVE	include/localdef.h	/^enum _dev_types { DEV_ACTIVE, DEV_PASSIVE, DEV_SELECT };$/;"	e	enum:_dev_types
+DEV_SELECT	include/localdef.h	/^enum _dev_types { DEV_ACTIVE, DEV_PASSIVE, DEV_SELECT };$/;"	e	enum:_dev_types
+DF	include/filedefine.h	440;"	d
+DHCPCD1_INFO_FILE	include/filedefine.h	441;"	d
+DHCPCD1_INIT_PID_FILE	include/filedefine.h	442;"	d
+DHCPCD1_PID_FILE	include/filedefine.h	443;"	d
+DHCPCD2_INFO_FILE	include/filedefine.h	444;"	d
+DHCPCD2_INIT_PID_FILE	include/filedefine.h	445;"	d
+DHCPCD2_PID_FILE	include/filedefine.h	446;"	d
+DHCPCD3_INFO_FILE	include/filedefine.h	447;"	d
+DHCPCD3_INIT_PID_FILE	include/filedefine.h	448;"	d
+DHCPCD3_PID_FILE	include/filedefine.h	449;"	d
+DHCPCD_CMD	include/filedefine.h	451;"	d
+DHCPCD_INFO_FILE	include/filedefine.h	452;"	d
+DHCPCD_INIT_PID_FILE	include/filedefine.h	453;"	d
+DHCPCD_PID_FILE	include/filedefine.h	454;"	d
+DHCPD_BASIC_CONF	include/filedefine.h	55;"	d
+DHCPD_BASIC_CONF_C	include/filedefine.h	238;"	d
+DHCPD_CMD	include/filedefine.h	456;"	d
+DHCPD_CONF	include/filedefine.h	56;"	d
+DHCPD_CONF_C	include/filedefine.h	239;"	d
+DHCPD_FIXEDIP_CONF	include/filedefine.h	57;"	d
+DHCPD_FIXEDIP_CONF_C	include/filedefine.h	240;"	d
+DHCPD_PID_FILE	include/filedefine.h	457;"	d
+DHCP_RUNNING	include/filedefine.h	458;"	d
+DHCP_STATUS	include/localdef.h	/^	DHCP_STATUS,$/;"	e	enum:_button_actions
+DISABLE	include/localdef.h	140;"	d
+DNS_STATUS	include/localdef.h	/^	DNS_STATUS,$/;"	e	enum:_button_actions
+DONT_SAVE	include/localdef.h	615;"	d
+DOWN	include/localdef.h	188;"	d
+DOWN	local.h	93;"	d
+DOWNLOAD0_NODE	include/filedefine.h	459;"	d
+DOWNLOAD1_NODE	include/filedefine.h	460;"	d
+DOWNLOAD2_NODE	include/filedefine.h	461;"	d
+DOWNLOAD3_NODE	include/filedefine.h	462;"	d
+DOWNLOAD_NODE	include/filedefine.h	463;"	d
+DOWNLOAD_SELF	include/filedefine.h	464;"	d
+DOWN_STATUS	local.h	83;"	d
+DO_SAVE	include/localdef.h	616;"	d
+DUPLEX_AUTO	include/localdef.h	/^    DUPLEX_AUTO = 0,$/;"	e	enum:_link_duplex
+DUPLEX_FULL	include/localdef.h	/^    DUPLEX_FULL = 2$/;"	e	enum:_link_duplex
+DUPLEX_HALF	include/localdef.h	/^    DUPLEX_HALF = 1,$/;"	e	enum:_link_duplex
+DYNAMIC_ROUTE_CONF_FILE	include/filedefine.h	58;"	d
+DYNAMIC_ROUTE_CONF_FILE_C	include/filedefine.h	241;"	d
+ECHO_CMD	include/filedefine.h	465;"	d
+ECHO_OFF	include/localdef.h	178;"	d
+ECHO_ON	include/localdef.h	177;"	d
+EGREP	include/filedefine.h	466;"	d
+ENABLE	include/localdef.h	139;"	d
+ERROR_LOGFILE	include/filedefine.h	467;"	d
+ERR_SELECT	include/localdef.h	459;"	d
+ETHERNET_HW_LEN	send_arp.c	43;"	d	file:
+ETHTOOL	include/filedefine.h	468;"	d
+EXPIRED_VERSION	include/license.h	/^enum _sale_states { TRIVAL_VERSION, EXPIRED_VERSION, FULL_VERSION };$/;"	e	enum:_sale_states
+Enable_Check	a/utils.c	/^short Enable_Check(FILE *file, const char *key, int default_type)$/;"	f	signature:(FILE *file, const char *key, int default_type)
+Enable_Check	a/utils.h	/^extern short Enable_Check(FILE *file, const char *key, int default_type);$/;"	p	signature:(FILE *file, const char *key, int default_type)
+F5500	include/localdef.h	341;"	d
+FALSE	cluster_recv.c	24;"	d	file:
+FALSE	cluster_send.c	22;"	d	file:
+FALSE	include/localdef.h	546;"	d
+FALSE	local.h	97;"	d
+FILE_CMD	include/filedefine.h	910;"	d
+FILTER_CONF	include/filedefine.h	821;"	d
+FILTER_CONF_FILE	include/filedefine.h	59;"	d
+FILTER_CONF_FILE_C	include/filedefine.h	242;"	d
+FILTER_CONTENT_ALLOW_LIST_CONF_FILE	include/filedefine.h	60;"	d
+FILTER_CONTENT_ALLOW_LIST_CONF_FILE_C	include/filedefine.h	243;"	d
+FILTER_CONTENT_DENY_LIST_CONF_FILE	include/filedefine.h	61;"	d
+FILTER_CONTENT_DENY_LIST_CONF_FILE_C	include/filedefine.h	244;"	d
+FILTER_IPT_FILE	include/filedefine.h	62;"	d
+FILTER_IPT_FILE_C	include/filedefine.h	245;"	d
+FILTER_URL_ALLOW_LIST_CONF_FILE	include/filedefine.h	63;"	d
+FILTER_URL_ALLOW_LIST_CONF_FILE_C	include/filedefine.h	246;"	d
+FILTER_URL_DENY_LIST_CONF_FILE	include/filedefine.h	64;"	d
+FILTER_URL_DENY_LIST_CONF_FILE_C	include/filedefine.h	247;"	d
+FILTER_URL_EXCEPT_LIST_CONF_FILE	include/filedefine.h	65;"	d
+FILTER_URL_EXCEPT_LIST_CONF_FILE_C	include/filedefine.h	248;"	d
+FILTER_URL_STATUS	include/localdef.h	/^	FILTER_URL_STATUS,$/;"	e	enum:_button_actions
+FIREWALL_LOGFILE	include/filedefine.h	471;"	d
+FIREWALL_PRIV	include/localdef.h	221;"	d
+FORWARD	include/localdef.h	135;"	d
+FORWARD_IPT_FILE	include/filedefine.h	66;"	d
+FORWARD_IPT_FILE_C	include/filedefine.h	249;"	d
+FULL_VERSION	include/license.h	/^enum _sale_states { TRIVAL_VERSION, EXPIRED_VERSION, FULL_VERSION };$/;"	e	enum:_sale_states
+FUNC	include/localdef.h	165;"	d
+FUNC	local.h	151;"	d
+FUNC_DEV	include/interface.h	57;"	d
+FUNC_LIST_CONF_FILE	include/filedefine.h	67;"	d
+FUNC_LIST_CONF_FILE_C	include/filedefine.h	250;"	d
+FUNC_STATUS	include/localdef.h	/^	FUNC_STATUS,$/;"	e	enum:_button_actions
+GETSSLRUN_CMD_SH	include/filedefine.h	472;"	d
+GET_SSLRUN_CMD	include/filedefine.h	473;"	d
+GET_TSSLRUN_CMD	include/filedefine.h	474;"	d
+GIFDSTADDR	include/localdef.h	414;"	d
+GIFNETMASK	include/localdef.h	413;"	d
+GLOBAL_CONF_FILE	include/filedefine.h	68;"	d
+GREP	include/filedefine.h	475;"	d
+GREP	local.h	139;"	d
+GROUP_LIST_MAX	include/localdef.h	668;"	d
+GetProfile	a/utils.c	/^int GetProfile(FILE *Profile, const char tag, const char *Key, char *PStr)$/;"	f	signature:(FILE *Profile, const char tag, const char *Key, char *PStr)
+GetProfile	a/utils.h	/^extern int GetProfile(FILE *Profile, const char tag, const char *Key, char *PStr);$/;"	p	signature:(FILE *Profile, const char tag, const char *Key, char *PStr)
+Get_PID	a/utils.c	/^int Get_PID (const char *pidfilename)$/;"	f	signature:(const char *pidfilename)
+Get_PID	a/utils.h	/^extern int Get_PID (const char *pidfilename);$/;"	p	signature:(const char *pidfilename)
+Get_Value	a/utils.c	/^int Get_Value (char *string, char tag, int offset, char *value)$/;"	f	signature:(char *string, char tag, int offset, char *value)
+Get_Value	a/utils.h	/^extern int Get_Value (char *string, char tag, int offset, char *value);$/;"	p	signature:(char *string, char tag, int offset, char *value)
+HB_PACKET	cluster_utils.h	/^} HB_PACKET;$/;"	t	typeref:struct:_hb_packet
+HB_PORT	local.h	50;"	d
+HISTMAX	include/localdef.h	50;"	d
+HOSTNAME	include/filedefine.h	476;"	d
+HOSTS_FILE	include/filedefine.h	69;"	d
+HOSTS_FILE_C	include/filedefine.h	251;"	d
+HOST_SCAN	include/filedefine.h	477;"	d
+HOST_SCAN_PIDFILE	include/filedefine.h	478;"	d
+HOST_USER_CONF_FILE	include/filedefine.h	70;"	d
+HOST_USER_CONF_FILE_C	include/filedefine.h	252;"	d
+HOST_USER_LIST	include/filedefine.h	479;"	d
+HOST_USER_SCAN_FILE	include/filedefine.h	480;"	d
+HOST_USER_TAG_FILE	include/filedefine.h	481;"	d
+HTTPD_CMD	include/filedefine.h	482;"	d
+HTTPD_CONF_FILE	include/filedefine.h	71;"	d
+HTTPD_CONF_FILE_C	include/filedefine.h	253;"	d
+HTTPD_PIDFILE	include/filedefine.h	483;"	d
+HTTPD_SYNC_CONF_FILE	local.h	30;"	d
+HTTPD_SYNC_PIDFILE	local.h	32;"	d
+HTTPS_CONF_FILE	include/filedefine.h	72;"	d
+HTTPS_CONF_FILE_C	include/filedefine.h	254;"	d
+HTTPS_PIDFILE	include/filedefine.h	484;"	d
+HWCLOCK	include/filedefine.h	485;"	d
+ICEFLOW_LOGFILE	include/filedefine.h	486;"	d
+ICEFLOW_ZONE_FILE	include/filedefine.h	73;"	d
+ICEFLOW_ZONE_FILE_C	include/filedefine.h	255;"	d
+ICE_IPVS	include/filedefine.h	487;"	d
+ICE_MOUNT_POINT	include/filedefine.h	488;"	d
+ICE_VERSION_FILE	include/filedefine.h	489;"	d
+ICONV_CMD	include/filedefine.h	911;"	d
+IDS_IPT_FILE	include/filedefine.h	74;"	d
+IDS_IPT_FILE_C	include/filedefine.h	256;"	d
+IFADDR	include/localdef.h	191;"	d
+IFADDR	include/localdef.h	412;"	d
+IFCONFIG	include/filedefine.h	809;"	d
+IFDSTADDR	include/localdef.h	193;"	d
+IFNETMASK	include/localdef.h	192;"	d
+IF_NAMESIZ	send_arp.c	42;"	d	file:
+IF_UPDATE	include/filedefine.h	895;"	d
+IMCS_CMD	include/filedefine.h	490;"	d
+IMCS_PIDFILE	include/filedefine.h	491;"	d
+INACTIVE_STATUS	local.h	88;"	d
+INCLUDE	Makefile	/^INCLUDE=-Iinclude$/;"	m
+INDEX80_HTML_FILE	include/filedefine.h	75;"	d
+INDEX80_HTML_FILE_C	include/filedefine.h	257;"	d
+INDEXDIGITAL_FAILED_FILE	include/filedefine.h	492;"	d
+INDEXDIGITAL_FAILED_FILE	local.h	124;"	d
+INDEXNODESIZE	include/localdef.h	517;"	d
+INDEX_CONF_FILE	local.h	127;"	d
+INDEX_DIGITAL_FAILED_STATUS	local.h	90;"	d
+INDEX_DIGITAL_SIGN_SIZE	include/localdef.h	518;"	d
+INDEX_FILE	include/filedefine.h	76;"	d
+INDEX_FILE_C	include/filedefine.h	258;"	d
+INDEX_GROUPNAME_SIZE	include/localdef.h	406;"	d
+INDEX_INI_CONF_FILE	include/filedefine.h	77;"	d
+INDEX_INI_CONF_FILE_C	include/filedefine.h	259;"	d
+INDEX_NODENAME_SIZE	include/localdef.h	407;"	d
+INDEX_PORT	a/utils.h	45;"	d
+INDEX_PORT	cluster_utils.c	16;"	d	file:
+INDEX_SELECT	include/filedefine.h	493;"	d
+INDEX_SELECT_CMD	include/filedefine.h	494;"	d
+INDEX_SELECT_PIDFIEL	include/filedefine.h	495;"	d
+INDEX_SERVER_CMD	include/filedefine.h	496;"	d
+INDEX_SERVER_PIDFILE	include/filedefine.h	497;"	d
+INDEX_STATUS	include/localdef.h	/^	INDEX_STATUS,$/;"	e	enum:_button_actions
+INIT_REPORT_DB	include/filedefine.h	893;"	d
+INTERACE_AGGREGATE	include/localdef.h	/^    INTERACE_AGGREGATE = 2,$/;"	e	enum:_int_type_enum
+INTERACE_BRIDGE	include/localdef.h	/^    INTERACE_BRIDGE = 1,$/;"	e	enum:_int_type_enum
+INTERACE_LOOPBACK	include/localdef.h	/^    INTERACE_LOOPBACK = 4,$/;"	e	enum:_int_type_enum
+INTERACE_PHYSICAL	include/localdef.h	/^    INTERACE_PHYSICAL = 0,$/;"	e	enum:_int_type_enum
+INTERACE_REDUNDANT	include/localdef.h	/^    INTERACE_REDUNDANT = 3,$/;"	e	enum:_int_type_enum
+INTERACE_VLAN	include/localdef.h	/^    INTERACE_VLAN = 4$/;"	e	enum:_int_type_enum
+INTERNAL	main.c	12;"	d	file:
+INTERNETRECV	include/filedefine.h	498;"	d
+INTERNETSEND	include/filedefine.h	499;"	d
+INTERVAL	local.h	71;"	d
+INT_DEF_CHANGED	include/filedefine.h	500;"	d
+IP	include/filedefine.h	501;"	d
+IPPROTO_ADDR_LEN	send_arp.c	44;"	d	file:
+IPSEC2_INFO_FILE	include/filedefine.h	502;"	d
+IPSEC2_INFO_FILE	include/filedefine.h	839;"	d
+IPSEC2_SETUP_PID_FILE	include/filedefine.h	503;"	d
+IPSEC2_SETUP_PID_FILE	include/filedefine.h	837;"	d
+IPSEC_BASIC_FILE	include/filedefine.h	49;"	d
+IPSEC_BASIC_FILE_C	include/filedefine.h	227;"	d
+IPSEC_CHECK_SH	include/filedefine.h	504;"	d
+IPSEC_CMD	include/filedefine.h	505;"	d
+IPSEC_CMD	local.h	110;"	d
+IPSEC_CONF_BAK_FILE	include/filedefine.h	830;"	d
+IPSEC_CONF_FILE	include/filedefine.h	829;"	d
+IPSEC_CONN_DEFAULT_FILE	include/filedefine.h	506;"	d
+IPSEC_CONN_DEFAULT_FILE	include/filedefine.h	832;"	d
+IPSEC_INFO_FILE	include/filedefine.h	507;"	d
+IPSEC_INFO_FILE	include/filedefine.h	838;"	d
+IPSEC_SECRETS_FILE	include/filedefine.h	508;"	d
+IPSEC_SECRETS_FILE	include/filedefine.h	828;"	d
+IPSEC_SETUP_PID_FILE	include/filedefine.h	509;"	d
+IPSEC_SETUP_PID_FILE	include/filedefine.h	836;"	d
+IPSEC_VERSION	include/filedefine.h	510;"	d
+IPSEC_VERSION	include/filedefine.h	840;"	d
+IPTABLES	include/filedefine.h	511;"	d
+IPT_L_FILE	include/filedefine.h	78;"	d
+IPT_L_FILE_C	include/filedefine.h	260;"	d
+IPT_L_LOCK	include/filedefine.h	824;"	d
+IPT_R	include/filedefine.h	512;"	d
+IPT_S	include/filedefine.h	513;"	d
+IPVSADM	include/filedefine.h	514;"	d
+IPVSADMCONNECT	include/filedefine.h	515;"	d
+IPVS_CONF_FILE	include/filedefine.h	79;"	d
+IPVS_CONF_FILE_C	include/filedefine.h	261;"	d
+IPVS_CONNECT_FILE	include/filedefine.h	516;"	d
+IPVS_LOCK_FILE	include/filedefine.h	517;"	d
+IPVS_STATUS	include/localdef.h	/^	IPVS_STATUS,$/;"	e	enum:_button_actions
+IPVS_STATUS_FILE	include/filedefine.h	518;"	d
+IP_CMD	include/filedefine.h	519;"	d
+IP_CMD	local.h	111;"	d
+IP_CONNTRACK	include/filedefine.h	520;"	d
+IP_DHCP	include/localdef.h	/^    IP_DHCP = 1,$/;"	e	enum:_ip_mode_enum
+IP_FIXED	include/localdef.h	/^    IP_FIXED = 0,$/;"	e	enum:_ip_mode_enum
+IP_KERNEL_CONF_FILE	include/filedefine.h	80;"	d
+IP_MAC_CONF_FILE	include/filedefine.h	81;"	d
+IP_MAC_CONF_FILE_C	include/filedefine.h	262;"	d
+IP_MAC_LIST_CONF_FILE	include/filedefine.h	82;"	d
+IP_MAC_LIST_CONF_FILE_C	include/filedefine.h	263;"	d
+IP_MAC_STATUS	include/localdef.h	/^	IP_MAC_STATUS,$/;"	e	enum:_button_actions
+IP_P2P_LIST_FILE	include/filedefine.h	521;"	d
+IP_POOL1_CONF_FILE	include/filedefine.h	83;"	d
+IP_POOL2_CONF_FILE	include/filedefine.h	84;"	d
+IP_POOL3_CONF_FILE	include/filedefine.h	85;"	d
+IP_POOL_CONF_FILE	include/filedefine.h	86;"	d
+IP_PPPOE	include/localdef.h	/^    IP_PPPOE = 2$/;"	e	enum:_ip_mode_enum
+KEEPALIVED_CMD	include/filedefine.h	847;"	d
+KEEPALIVED_CONF_FILE	include/filedefine.h	194;"	d
+KEEPALIVED_CONF_FILE_C	include/filedefine.h	354;"	d
+KEEPALIVED_PIDFILE	include/filedefine.h	848;"	d
+KILL	include/filedefine.h	522;"	d
+KILLALL	include/filedefine.h	523;"	d
+L2TPD_CMD	include/filedefine.h	862;"	d
+L2TPD_PIDFILE	include/filedefine.h	863;"	d
+L2TPUSER_CONF_FILE	include/filedefine.h	87;"	d
+L2TPUSER_CONF_FILE_C	include/filedefine.h	264;"	d
+L2TP_CHAP_FILE	include/filedefine.h	88;"	d
+L2TP_CHAP_FILE_C	include/filedefine.h	265;"	d
+L2TP_SECRETS	include/filedefine.h	865;"	d
+LAN	include/localdef.h	154;"	d
+LAN	local.h	143;"	d
+LAN0	include/localdef.h	155;"	d
+LAN1	include/localdef.h	156;"	d
+LAN1	local.h	144;"	d
+LAN1_DEV	include/interface.h	52;"	d
+LAN1_STATUS	include/localdef.h	/^	LAN1_STATUS,$/;"	e	enum:_button_actions
+LAN2	include/localdef.h	157;"	d
+LAN2	local.h	145;"	d
+LAN2_DEV	include/interface.h	53;"	d
+LAN2_STATUS	include/localdef.h	/^	LAN2_STATUS,$/;"	e	enum:_button_actions
+LAN_CONF_FILE	include/filedefine.h	89;"	d
+LAN_CONF_FILE_C	include/filedefine.h	266;"	d
+LAN_DEV	include/interface.h	55;"	d
+LAN_STATUS	include/localdef.h	/^	LAN_STATUS,$/;"	e	enum:_button_actions
+LCHECK_LOCAL_FILE	include/filedefine.h	524;"	d
+LIB	Makefile	/^LIB= ..\/lib\/libifcommon.a$/;"	m
+LICENSE1_FAILED_FILE	include/filedefine.h	525;"	d
+LICENSE_FAILED_FILE	include/filedefine.h	526;"	d
+LICENSE_FAILED_FILE	local.h	123;"	d
+LICENSE_FAILED_FILE	local.h	131;"	d
+LICENSE_FILE	include/filedefine.h	90;"	d
+LICENSE_FILE	local.h	122;"	d
+LICENSE_FILE	local.h	126;"	d
+LICENSE_FILE_C	include/filedefine.h	267;"	d
+LICENSE_INFO	include/filedefine.h	843;"	d
+LIFE_MAX	include/localdef.h	309;"	d
+LIGHTTPD	include/filedefine.h	527;"	d
+LIGHTTPD_CMD	local.h	31;"	d
+LINKMODE_CONF_FILE	include/filedefine.h	91;"	d
+LINKMODE_CONF_FILE_C	include/filedefine.h	268;"	d
+LINK_DOWN	include/localdef.h	/^    LINK_DOWN = 0,$/;"	e	enum:_link_status
+LINK_UP	include/localdef.h	/^    LINK_UP = 1$/;"	e	enum:_link_status
+LINUX_VERSION	include/filedefine.h	528;"	d
+LOCAL_TAG	include/localdef.h	284;"	d
+LOCAL_ZONE_FILE	include/filedefine.h	92;"	d
+LOCAL_ZONE_FILE_C	include/filedefine.h	269;"	d
+LOGBC_CMD	include/filedefine.h	529;"	d
+LOGBC_CONF_FILE	include/filedefine.h	530;"	d
+LOGBC_CONF_FILE_C	include/filedefine.h	531;"	d
+LOGBC_PIDFILE	include/filedefine.h	532;"	d
+LOGBUFFERSIZE	include/localdef.h	621;"	d
+LOGIN_USER	include/localdef.h	461;"	d
+LOGIN_USER	include/localdef.h	603;"	d
+LOG_ACCESS	include/localdef.h	526;"	d
+LOG_DEV	include/localdef.h	539;"	d
+LOG_FIREWALL	include/localdef.h	530;"	d
+LOG_FIREWALL	local.h	103;"	d
+LOG_ICEFLOW	include/localdef.h	316;"	d
+LOG_ICEFLOW	include/localdef.h	531;"	d
+LOG_IFDEBUG	include/localdef.h	532;"	d
+LOG_LIST	include/filedefine.h	533;"	d
+LOG_MANAGE_CONF_FILE	include/filedefine.h	93;"	d
+LOG_MANAGE_CONF_FILE_C	include/filedefine.h	270;"	d
+LOG_MOBILE	include/localdef.h	527;"	d
+LOG_MOBILE	local.h	100;"	d
+LOG_MOUNT_POINT	include/filedefine.h	534;"	d
+LOG_PARSER_CONF_FILE	include/filedefine.h	535;"	d
+LOG_PARSER_CONF_FILE_C	include/filedefine.h	536;"	d
+LOG_PARSER_PIDFILE	include/filedefine.h	537;"	d
+LOG_ROTATER	include/filedefine.h	538;"	d
+LOG_ROTATER_NEW	include/filedefine.h	539;"	d
+LOG_SH	include/filedefine.h	540;"	d
+LOG_STATUS	include/localdef.h	/^	LOG_STATUS,$/;"	e	enum:_button_actions
+LOG_SYSTEM	include/localdef.h	529;"	d
+LOG_SYSTEM	local.h	102;"	d
+LOG_VPN	include/localdef.h	528;"	d
+LOG_VPN	local.h	101;"	d
+LOG_WARN	include/localdef.h	533;"	d
+LSMOD	include/filedefine.h	541;"	d
+Len_Node_Name	include/localdef.h	144;"	d
+Len_Password	include/localdef.h	145;"	d
+Len_VPN_Group_Name	include/localdef.h	143;"	d
+LineMaxLen	include/localdef.h	146;"	d
+LineMaxLen	local.h	68;"	d
+MAIN_IPT_FILE	include/filedefine.h	94;"	d
+MAIN_IPT_FILE_C	include/filedefine.h	271;"	d
+MAIN_TABLE_INDEX	include/localdef.h	267;"	d
+MAKE_CONFDB_CMD	include/filedefine.h	907;"	d
+MANGLE_CONF	include/filedefine.h	822;"	d
+MASTERRECV	include/filedefine.h	542;"	d
+MASTERSEND	include/filedefine.h	543;"	d
+MAXTIMEOUT	include/localdef.h	52;"	d
+MAX_CMDLEN	include/localdef.h	29;"	d
+MAX_TC_NUM	include/localdef.h	416;"	d
+MCSERVER_CMD	include/filedefine.h	544;"	d
+MCSERVER_PIDFILE	include/filedefine.h	545;"	d
+MC_BASIC_CONF_FILE	include/filedefine.h	95;"	d
+MC_BASIC_CONF_FILE_C	include/filedefine.h	272;"	d
+MC_CONF_FILE	include/filedefine.h	96;"	d
+MC_CONF_FILE_C	include/filedefine.h	273;"	d
+MC_POLICY	include/filedefine.h	97;"	d
+MC_PRIV	include/localdef.h	229;"	d
+MII_CMD	include/filedefine.h	546;"	d
+MII_ENABLED	include/localdef.h	352;"	d
+MII_ENABLED	include/localdef.h	374;"	d
+MII_ENABLED	include/localdef.h	382;"	d
+MII_ENABLED	include/localdef.h	389;"	d
+MIME_CONF_FILE	include/filedefine.h	98;"	d
+MIME_CONF_FILE_C	include/filedefine.h	274;"	d
+MIME_TYPES_FILE	include/filedefine.h	99;"	d
+MIME_TYPES_FILE_C	include/filedefine.h	275;"	d
+MIN_DOWN_TIME	local.h	64;"	d
+MIN_MAXTIMEOUT	include/localdef.h	606;"	d
+MISC_CHECKSUMK_FILE	include/filedefine.h	547;"	d
+MISC_CHECKSUM_FILE	include/filedefine.h	548;"	d
+MISC_DEV	include/localdef.h	536;"	d
+MISC_ICE_BIN	include/filedefine.h	549;"	d
+MISC_KERNEL_FILE	include/filedefine.h	550;"	d
+MISC_LAST	include/filedefine.h	551;"	d
+MISC_MOUNT_POINT	include/filedefine.h	552;"	d
+MISC_VERSION_FILE	include/filedefine.h	553;"	d
+MKDIR	include/filedefine.h	554;"	d
+MOBILE	include/localdef.h	174;"	d
+MOBILE_CONF_FILE	include/filedefine.h	100;"	d
+MOBILE_CONF_FILE_C	include/filedefine.h	276;"	d
+MOBILE_LICENSE_LEN	include/localdef.h	513;"	d
+MOBILE_LOGFILE	include/filedefine.h	555;"	d
+MOBILE_PRIV	include/localdef.h	226;"	d
+MOBILE_RUNNING_DUMP	include/filedefine.h	556;"	d
+MOBILE_RUNNING_DUMP_PARSER	include/filedefine.h	557;"	d
+MOBILE_RUNNING_DUMP_ROTATE	include/filedefine.h	558;"	d
+MOBILE_SSL	include/localdef.h	/^    MOBILE_SSL=1     \/\/SSL VPN�ͻ��˵�½$/;"	e	enum:enum_mobile_types
+MOBILE_STOP	include/filedefine.h	559;"	d
+MOBILE_STOP_CMD	include/filedefine.h	560;"	d
+MOBILE_SUMMARY_FILE	include/filedefine.h	561;"	d
+MOBILE_WEBSSL	include/localdef.h	/^    MOBILE_WEBSSL=0, \/\/Webssl web��½$/;"	e	enum:enum_mobile_types
+MODEM	include/localdef.h	171;"	d
+MODEM	local.h	156;"	d
+MODEM_ACCESS_STATUS	include/localdef.h	/^	MODEM_ACCESS_STATUS,$/;"	e	enum:_button_actions
+MODEM_BACKUP_STATUS	include/localdef.h	/^	MODEM_BACKUP_STATUS,$/;"	e	enum:_button_actions
+MODEM_CONF_FILE	include/filedefine.h	101;"	d
+MODEM_CONF_FILE_C	include/filedefine.h	277;"	d
+MODEM_DIAL_STATUS	include/localdef.h	/^	MODEM_DIAL_STATUS,$/;"	e	enum:_button_actions
+MODEM_ON	include/filedefine.h	562;"	d
+MODEM_PIDFILE	include/filedefine.h	563;"	d
+MODE_CLEAR	include/localdef.h	105;"	d
+MODE_GRE	include/localdef.h	108;"	d
+MODE_IPIP	include/localdef.h	109;"	d
+MODE_IPSEC	include/localdef.h	110;"	d
+MODE_MULTICAST	include/localdef.h	111;"	d
+MODIFY	include/localdef.h	312;"	d
+MODULE_CLUSTER_ENABLED	include/localdef.h	367;"	d
+MODULE_CLUSTER_ENABLED	include/localdef.h	393;"	d
+MODULE_INDEX	include/localdef.h	366;"	d
+MODULE_INDEX	include/localdef.h	392;"	d
+MODULE_INDEX_GROUP_CONF_FILE	include/filedefine.h	102;"	d
+MODULE_INDEX_GROUP_CONF_FILE_C	include/filedefine.h	278;"	d
+MODULE_INDEX_MSG_FILE	include/filedefine.h	564;"	d
+MODULE_INDEX_NODE_CONF_FILE	include/filedefine.h	103;"	d
+MODULE_INDEX_NODE_CONF_FILE_C	include/filedefine.h	279;"	d
+MODULE_INDEX_PRIV	include/localdef.h	224;"	d
+MODULE_INDEX_RUNNING_DUMP	include/filedefine.h	565;"	d
+MODULE_LOAD_BALANCE_CONF_FILE	include/filedefine.h	104;"	d
+MODULE_LOAD_BALANCE_CONF_FILE_C	include/filedefine.h	280;"	d
+MODULE_LOAD_BALANCE_LIST_CONF_FILE	include/filedefine.h	105;"	d
+MODULE_LOAD_BALANCE_LIST_CONF_FILE_C	include/filedefine.h	281;"	d
+MODULE_MODEM_ENABLED	include/localdef.h	368;"	d
+MODULE_MODEM_ENABLED	include/localdef.h	394;"	d
+MOD_CLUSTER_DIR	include/filedefine.h	566;"	d
+MOD_INDEX_DIR	include/filedefine.h	567;"	d
+MOD_PDC_DIR	include/filedefine.h	568;"	d
+MOD_PLUS_DIR	include/filedefine.h	569;"	d
+MONITOR_CMD	include/filedefine.h	570;"	d
+MONITOR_CONF_FILE	include/filedefine.h	106;"	d
+MONITOR_CONF_FILE_C	include/filedefine.h	282;"	d
+MONITOR_IP_CMD	include/filedefine.h	858;"	d
+MONITOR_IP_PIDFILE	include/filedefine.h	859;"	d
+MONITOR_NOTICE	include/filedefine.h	571;"	d
+MONITOR_PIDFILE	include/filedefine.h	572;"	d
+MOUNT	include/filedefine.h	573;"	d
+MROUTED_CMD	include/filedefine.h	574;"	d
+MSG_SEND_STATUS	local.h	80;"	d
+MSS_CONF	include/filedefine.h	823;"	d
+MT_DEST_IP	include/localdef.h	/^    MT_DEST_IP = 0,                         \/* 1.1.1. *\/$/;"	e	enum:match_types
+MT_DEST_IP_DEST_PORT	include/localdef.h	/^    MT_DEST_IP_DEST_PORT = 5,               \/* 1|1.1.1.1|90000 *\/$/;"	e	enum:match_types
+MT_DEST_IP_DEST_PORT_RANGE	include/localdef.h	/^    MT_DEST_IP_DEST_PORT_RANGE = 8,         \/* 1|1.1.1.0|1000-9000 *\/$/;"	e	enum:match_types
+MT_DEST_IP_RANGE	include/localdef.h	/^    MT_DEST_IP_RANGE = 2,                   \/* 1.1.1.1-1.1.1.200 *\/$/;"	e	enum:match_types
+MT_DEST_IP_RANGE_DEST_PORT	include/localdef.h	/^    MT_DEST_IP_RANGE_DEST_PORT = 7,         \/* 1|1.1.1.0-1.1.1.1|9000 *\/$/;"	e	enum:match_types
+MT_DEST_IP_RANGE_DEST_PORT_RANGE	include/localdef.h	/^    MT_DEST_IP_RANGE_DEST_PORT_RANGE = 10   \/* 1|1.1.1.1-1.1.1.100|1000-9000 *\/$/;"	e	enum:match_types
+MT_DEST_PORT	include/localdef.h	/^    MT_DEST_PORT = 3,                       \/* 0|9000 *\/$/;"	e	enum:match_types
+MT_DEST_PORT_RANGE	include/localdef.h	/^    MT_DEST_PORT_RANGE = 4,                 \/* 0|9000-10000 *\/$/;"	e	enum:match_types
+MT_NONE	include/localdef.h	/^	MT_NONE = 9999,							\/* Unused match type *\/$/;"	e	enum:match_types
+MULTICAST_CONF_FILE	include/filedefine.h	107;"	d
+MULTICAST_CONF_FILE_C	include/filedefine.h	283;"	d
+MULTICAST_STOP_TAG_FILE	include/filedefine.h	575;"	d
+MV	include/filedefine.h	576;"	d
+NAC_ENABLE_TAG	include/filedefine.h	577;"	d
+NAC_LOGINURL_PORT_CONF_FILE	include/filedefine.h	108;"	d
+NAMED_CMD	include/filedefine.h	578;"	d
+NAMED_CONF_FILE	include/filedefine.h	109;"	d
+NAMED_CONF_FILE_C	include/filedefine.h	284;"	d
+NAMED_ENABLED	include/localdef.h	353;"	d
+NAMED_ENABLED	include/localdef.h	364;"	d
+NAMED_ENABLED	include/localdef.h	381;"	d
+NAMED_ENABLED	include/localdef.h	390;"	d
+NAMED_PID_FILE	include/filedefine.h	579;"	d
+NAT_CONF	include/filedefine.h	820;"	d
+NAT_CONF_FILE	include/filedefine.h	110;"	d
+NAT_CONF_FILE_C	include/filedefine.h	285;"	d
+NAT_LIST_CONF_FILE	include/filedefine.h	111;"	d
+NAT_LIST_CONF_FILE_C	include/filedefine.h	286;"	d
+NAT_TAG	include/filedefine.h	580;"	d
+NETMON	include/filedefine.h	581;"	d
+NETMON_CMD	include/filedefine.h	582;"	d
+NETMON_DUMP_FILE	include/filedefine.h	583;"	d
+NETMON_PIDFILE	include/filedefine.h	584;"	d
+NETMON_PROC	include/filedefine.h	585;"	d
+NETMON_PROC_DUMP_FILE	include/filedefine.h	586;"	d
+NETMON_PROC_PIDFILE	include/filedefine.h	587;"	d
+NETMON_PROC_STATUS	include/localdef.h	/^	NETMON_PROC_STATUS,$/;"	e	enum:_button_actions
+NETMON_STATUS	include/localdef.h	/^	NETMON_STATUS,$/;"	e	enum:_button_actions
+NETMON_VPN_DUMP_FILE	include/filedefine.h	588;"	d
+NETWORK_CACHE_STATUS	include/localdef.h	/^	NETWORK_CACHE_STATUS,$/;"	e	enum:_button_actions
+NET_FORMAT	include/utils.h	14;"	d
+NEWLINE_SYMBOL	include/localdef.h	48;"	d
+NEW_NAMED_PID_FILE	include/filedefine.h	589;"	d
+NO	a/utils.h	6;"	d
+NO	include/localdef.h	207;"	d
+NO	include/utils.h	9;"	d
+NODEINFO_FILE	include/localdef.h	150;"	d
+NODE_LICENSE_SIZE	include/localdef.h	408;"	d
+NODE_MAX	include/localdef.h	148;"	d
+NOECHO	include/localdef.h	100;"	d
+NORMAL	include/localdef.h	198;"	d
+NOSPEC	include/localdef.h	172;"	d
+NOSPEC	local.h	157;"	d
+NO_MODIFY	include/localdef.h	313;"	d
+NO_NET_FORMAT	include/utils.h	13;"	d
+NP_DB_CMD	include/filedefine.h	590;"	d
+NP_PRIV	include/localdef.h	230;"	d
+NSSWITCH_CONF_FILE	include/filedefine.h	112;"	d
+NSSWITCH_CONF_FILE_C	include/filedefine.h	287;"	d
+NULL_SYMBOL	include/localdef.h	47;"	d
+OBJ	Makefile	/^OBJ = $/;"	m
+OBJ1	Makefile	/^OBJ1 = cluster_utils.o$/;"	m
+OEM_CONF_DB	include/filedefine.h	367;"	d
+OEM_SHADOW	include/filedefine.h	368;"	d
+OFF	include/localdef.h	184;"	d
+ON	include/localdef.h	183;"	d
+OPERATION_LOCKFILE	include/filedefine.h	591;"	d
+OPT_ADD	cluster_utils.h	/^enum _enum_actions { OPT_NONE, OPT_ADD, OPT_REMOVE };$/;"	e	enum:_enum_actions
+OPT_DELETE_ALL	include/localdef.h	609;"	d
+OPT_DISABLE_ALL	include/localdef.h	611;"	d
+OPT_ENABLE_ALL	include/localdef.h	610;"	d
+OPT_NONE	cluster_utils.h	/^enum _enum_actions { OPT_NONE, OPT_ADD, OPT_REMOVE };$/;"	e	enum:_enum_actions
+OPT_REMOVE	cluster_utils.h	/^enum _enum_actions { OPT_NONE, OPT_ADD, OPT_REMOVE };$/;"	e	enum:_enum_actions
+OTP_CONF_FILE	include/filedefine.h	113;"	d
+OTP_CONF_FILE_C	include/filedefine.h	288;"	d
+OUTCHAR	a/utils.c	636;"	d	file:
+PAP_SECRETS_FILE	include/filedefine.h	114;"	d
+PAP_SECRETS_FILE_C	include/filedefine.h	289;"	d
+PART_DEF	include/filedefine.h	115;"	d
+PASSWD	include/filedefine.h	592;"	d
+PASSWD_FILE	include/filedefine.h	593;"	d
+PASS_AUTH_FAILED	include/localdef.h	/^enum _ret_pass_auth { PASS_AUTH_NORMAL, PASS_AUTH_OK, PASS_AUTH_FAILED, PASS_CHANGE_OK, PASS_CHANGE_FAILED };$/;"	e	enum:_ret_pass_auth
+PASS_AUTH_NORMAL	include/localdef.h	/^enum _ret_pass_auth { PASS_AUTH_NORMAL, PASS_AUTH_OK, PASS_AUTH_FAILED, PASS_CHANGE_OK, PASS_CHANGE_FAILED };$/;"	e	enum:_ret_pass_auth
+PASS_AUTH_OK	include/localdef.h	/^enum _ret_pass_auth { PASS_AUTH_NORMAL, PASS_AUTH_OK, PASS_AUTH_FAILED, PASS_CHANGE_OK, PASS_CHANGE_FAILED };$/;"	e	enum:_ret_pass_auth
+PASS_CHANGE_FAILED	include/localdef.h	/^enum _ret_pass_auth { PASS_AUTH_NORMAL, PASS_AUTH_OK, PASS_AUTH_FAILED, PASS_CHANGE_OK, PASS_CHANGE_FAILED };$/;"	e	enum:_ret_pass_auth
+PASS_CHANGE_OK	include/localdef.h	/^enum _ret_pass_auth { PASS_AUTH_NORMAL, PASS_AUTH_OK, PASS_AUTH_FAILED, PASS_CHANGE_OK, PASS_CHANGE_FAILED };$/;"	e	enum:_ret_pass_auth
+PING	include/filedefine.h	594;"	d
+PING_3	include/filedefine.h	595;"	d
+PLAIN	include/localdef.h	98;"	d
+PLUS1_RUNNING	include/filedefine.h	596;"	d
+PLUS2_RUNNING	include/filedefine.h	597;"	d
+PLUS3_RUNNING	include/filedefine.h	598;"	d
+PLUSCODE_LEN	include/localdef.h	425;"	d
+PLUS_CHANGED_NOTICE	include/filedefine.h	913;"	d
+PLUS_CMD	include/filedefine.h	599;"	d
+PLUS_CONF_FILE	include/filedefine.h	116;"	d
+PLUS_CONF_FILE_C	include/filedefine.h	290;"	d
+PLUS_HARDWARE_LIST_CONF_FILE	include/filedefine.h	117;"	d
+PLUS_HARDWARE_LIST_CONF_FILE_C	include/filedefine.h	291;"	d
+PLUS_HB_CMD	include/filedefine.h	600;"	d
+PLUS_HB_PIDFILE	include/filedefine.h	601;"	d
+PLUS_LIST_CONF_FILE	include/filedefine.h	118;"	d
+PLUS_LIST_CONF_FILE_C	include/filedefine.h	292;"	d
+PLUS_NOTICE	include/filedefine.h	602;"	d
+PLUS_PIDFILE	include/filedefine.h	603;"	d
+PLUS_RUNNING	include/filedefine.h	604;"	d
+PLUS_SOCK	include/filedefine.h	887;"	d
+PLUS_STATUS	include/localdef.h	/^	PLUS_STATUS,$/;"	e	enum:_button_actions
+PLUTO2_PID_FILE	include/filedefine.h	606;"	d
+PLUTO2_PID_FILE	include/filedefine.h	835;"	d
+PLUTO_PID_FILE	include/filedefine.h	607;"	d
+PLUTO_PID_FILE	include/filedefine.h	834;"	d
+POLICYROUTER_CMD	include/filedefine.h	608;"	d
+POLICYROUTER_DUMP_FILE	include/filedefine.h	609;"	d
+POLICYROUTER_PIDFILE	include/filedefine.h	610;"	d
+POLICYROUTER_PIDFILE	local.h	37;"	d
+POLICYROUTER_RUNNING	include/filedefine.h	611;"	d
+POLICYROUTER_RUNNING	local.h	129;"	d
+POLICYROUTER_RUNNING	local.h	38;"	d
+POLICYROUTING_PRIV	include/localdef.h	222;"	d
+POLICY_CONF_FILE	include/filedefine.h	119;"	d
+POLICY_CONF_FILE_C	include/filedefine.h	293;"	d
+POLICY_ENABLED	include/localdef.h	356;"	d
+POLICY_ENABLED	include/localdef.h	365;"	d
+POLICY_ENABLED	include/localdef.h	391;"	d
+POLICY_LIST_CONF_FILE	include/filedefine.h	120;"	d
+POLICY_LIST_CONF_FILE_C	include/filedefine.h	294;"	d
+PORTFORWARD_IPT_FILE	include/filedefine.h	121;"	d
+PORTFORWARD_IPT_FILE_C	include/filedefine.h	295;"	d
+POWEROFF	include/filedefine.h	612;"	d
+PPP	include/localdef.h	170;"	d
+PPP	local.h	155;"	d
+PPPD_ICE	include/filedefine.h	880;"	d
+PPPOE1_CONF_FILE	include/filedefine.h	122;"	d
+PPPOE1_CONF_FILE_C	include/filedefine.h	296;"	d
+PPPOE2_CONF_FILE	include/filedefine.h	123;"	d
+PPPOE2_CONF_FILE_C	include/filedefine.h	297;"	d
+PPPOE3_CONF_FILE	include/filedefine.h	124;"	d
+PPPOE3_CONF_FILE_C	include/filedefine.h	298;"	d
+PPPOE_CONF_FILE	include/filedefine.h	125;"	d
+PPPOE_CONF_FILE_C	include/filedefine.h	299;"	d
+PPPOE_PPP_DEV	include/filedefine.h	126;"	d
+PPP_DEV	include/interface.h	21;"	d
+PPP_OPTIONS_XL2TPD	include/filedefine.h	866;"	d
+PPP_RADIUS_PLUGIN	include/filedefine.h	613;"	d
+PPTPD_CMD	include/filedefine.h	614;"	d
+PPTPD_CONF_FILE	include/filedefine.h	127;"	d
+PPTPD_CONF_FILE_C	include/filedefine.h	300;"	d
+PPTPD_OPTIONS_FILE	include/filedefine.h	128;"	d
+PPTPD_OPTIONS_FILE_C	include/filedefine.h	301;"	d
+PPTPD_PID_FILE	include/filedefine.h	615;"	d
+PPTPLIMIT	include/localdef.h	54;"	d
+PPTPRUN	include/filedefine.h	616;"	d
+PPTPRUN_PLUS	include/filedefine.h	617;"	d
+PPTPRUN_PLUS_LOGBC	include/filedefine.h	618;"	d
+PPTPUSER_CONF_FILE	include/filedefine.h	129;"	d
+PPTPUSER_CONF_FILE_C	include/filedefine.h	302;"	d
+PPTP_FREELIMIT	include/localdef.h	55;"	d
+PPTP_GUARD_CMD	include/filedefine.h	619;"	d
+PPTP_GUARD_PID	include/filedefine.h	620;"	d
+PPTP_LOGFILE	include/filedefine.h	621;"	d
+PPTP_MAXLIMIT	include/localdef.h	56;"	d
+PPTP_MAX_LEN	include/localdef.h	318;"	d
+PPTP_REMOTEIP_DEFAULT	include/localdef.h	202;"	d
+PPTP_ROTUE	include/filedefine.h	877;"	d
+PPTP_RUNNING_DUMP	include/filedefine.h	622;"	d
+PPTP_STAT	include/filedefine.h	623;"	d
+PPTP_STATUS	include/localdef.h	/^	PPTP_STATUS,$/;"	e	enum:_button_actions
+PPTP_SUMMARY_FILE	include/filedefine.h	624;"	d
+PPTP_USER_CMD	include/filedefine.h	625;"	d
+PPTP_USER_PLUS	include/filedefine.h	626;"	d
+PREFIX	include/filedefine.h	303;"	d
+PREFIX_BACK	include/filedefine.h	130;"	d
+PRE_AG_VERSION	include/filedefine.h	131;"	d
+PRE_APPG_VERSION	include/filedefine.h	132;"	d
+PRE_TG_VERSION	include/filedefine.h	133;"	d
+PRE_UG_VERSION	include/filedefine.h	134;"	d
+PROC_ARP	include/filedefine.h	627;"	d
+PROC_MODULES	include/filedefine.h	628;"	d
+PROC_NET_DEV	include/filedefine.h	629;"	d
+PROC_NET_IPSEC_EROUTE	include/filedefine.h	630;"	d
+PROC_NET_IPSEC_TNCFG	include/filedefine.h	631;"	d
+PROC_SLABINFO	include/filedefine.h	632;"	d
+PROFILE_FILE	include/filedefine.h	135;"	d
+PROFILE_FILE	local.h	18;"	d
+PROFILE_FILE_C	include/filedefine.h	304;"	d
+PROMPT_STRING_0	include/localdef.h	33;"	d
+PROMPT_STRING_1	include/localdef.h	34;"	d
+PROMPT_STRING_2	include/localdef.h	35;"	d
+PROMPT_STRING_3	include/localdef.h	36;"	d
+PROMPT_STRING_4	include/localdef.h	37;"	d
+PROMPT_STRING_5	include/localdef.h	38;"	d
+PROMPT_STRING_6	include/localdef.h	39;"	d
+PROMPT_STRING_7	include/localdef.h	40;"	d
+PROMPT_STRING_8	include/localdef.h	41;"	d
+PROMPT_STRING_MC	include/localdef.h	42;"	d
+PROMPT_STRING_NP	include/localdef.h	43;"	d
+PROMPT_STRING_WEBSSL	include/localdef.h	44;"	d
+PROTO_ICMP	include/localdef.h	/^    PROTO_ICMP = 3$/;"	e	enum:proto_types
+PROTO_IP	include/localdef.h	/^    PROTO_IP = 0,$/;"	e	enum:proto_types
+PROTO_TCP	include/localdef.h	/^    PROTO_TCP = 1,$/;"	e	enum:proto_types
+PROTO_UDP	include/localdef.h	/^    PROTO_UDP = 2,$/;"	e	enum:proto_types
+QUIT_STRING	include/localdef.h	45;"	d
+R5000H	include/localdef.h	345;"	d
+R5000H	include/localdef.h	358;"	d
+R5000H	include/localdef.h	361;"	d
+RADIUSCLIENT_CONF_FILE	include/filedefine.h	136;"	d
+RADIUSCLIENT_CONF_FILE_C	include/filedefine.h	305;"	d
+RANBITS	include/localdef.h	596;"	d
+RAW_CONF	include/filedefine.h	819;"	d
+RDATE	include/filedefine.h	633;"	d
+RDATE1	include/filedefine.h	634;"	d
+RDATE2	include/filedefine.h	635;"	d
+REBOOT	include/filedefine.h	636;"	d
+REBOOT_NOTIFY	include/filedefine.h	916;"	d
+RECOVERY_PRIV	include/localdef.h	225;"	d
+RECOVERY_TAG_FILE	include/filedefine.h	306;"	d
+RECVPIDFILE	include/filedefine.h	637;"	d
+REMOTE_PPTP_LIST	include/filedefine.h	638;"	d
+RESOLV_BASIC_CONF_FILE	include/filedefine.h	141;"	d
+RESOLV_BASIC_CONF_FILE_C	include/filedefine.h	307;"	d
+RESOLV_CONF_FILE	include/filedefine.h	137;"	d
+RESOLV_CONF_FILE_C	include/filedefine.h	308;"	d
+RESTART	include/localdef.h	185;"	d
+RES_VPN_MOBILE_PPTP_ERR_INVALIDIP	include/ErrorNo.h	45;"	d
+RES_VPN_MOBILE_PPTP_ERR_INVALIDPASSWORD	include/ErrorNo.h	44;"	d
+RES_VPN_MOBILE_PPTP_ERR_INVALIDPOOL	include/ErrorNo.h	46;"	d
+RES_VPN_MOBILE_PPTP_ERR_INVALIDUSERNAME	include/ErrorNo.h	43;"	d
+RES_VPN_MOBILE_PPTP_ERR_INVALID_AUTH_PORT	include/ErrorNo.h	47;"	d
+RES_VPN_MOBILE_PPTP_ERR_INVALID_DESC	include/ErrorNo.h	49;"	d
+RES_VPN_MOBILE_PPTP_ERR_INVALID_REMOTE_NETS	include/ErrorNo.h	48;"	d
+RES_VPN_MOBILE_PPTP_ERR_UPLIMIT	include/ErrorNo.h	42;"	d
+RES_VPN_MOBILE_PPTP_ERR_USER_EXISTED	include/ErrorNo.h	40;"	d
+RES_VPN_MOBILE_PPTP_ERR_USER_RESERVED	include/ErrorNo.h	41;"	d
+RES_VPN_MOBILE_SSL_ERR_CUSTOM_STATIC_ROUTE	include/ErrorNo.h	22;"	d
+RES_VPN_MOBILE_SSL_ERR_INVALIDIP	include/ErrorNo.h	14;"	d
+RES_VPN_MOBILE_SSL_ERR_INVALIDPASSWORD	include/ErrorNo.h	13;"	d
+RES_VPN_MOBILE_SSL_ERR_INVALIDPOOL	include/ErrorNo.h	15;"	d
+RES_VPN_MOBILE_SSL_ERR_INVALIDPOOL_END	include/ErrorNo.h	17;"	d
+RES_VPN_MOBILE_SSL_ERR_INVALIDPOOL_START	include/ErrorNo.h	16;"	d
+RES_VPN_MOBILE_SSL_ERR_INVALIDUSERNAME	include/ErrorNo.h	12;"	d
+RES_VPN_MOBILE_SSL_ERR_INVALID_AUTH_PORT	include/ErrorNo.h	19;"	d
+RES_VPN_MOBILE_SSL_ERR_INVALID_AUTH_PORT1	include/ErrorNo.h	20;"	d
+RES_VPN_MOBILE_SSL_ERR_INVALID_CORE_CHECK_INTERVAL	include/ErrorNo.h	34;"	d
+RES_VPN_MOBILE_SSL_ERR_INVALID_CORE_CHECK_TIMEOUT	include/ErrorNo.h	35;"	d
+RES_VPN_MOBILE_SSL_ERR_INVALID_DATA_PORT	include/ErrorNo.h	21;"	d
+RES_VPN_MOBILE_SSL_ERR_INVALID_DNS	include/ErrorNo.h	25;"	d
+RES_VPN_MOBILE_SSL_ERR_INVALID_DNS2	include/ErrorNo.h	26;"	d
+RES_VPN_MOBILE_SSL_ERR_INVALID_PLUS_CHECK_INTERVAL	include/ErrorNo.h	36;"	d
+RES_VPN_MOBILE_SSL_ERR_INVALID_PLUS_CHECK_TIMEOUT	include/ErrorNo.h	37;"	d
+RES_VPN_MOBILE_SSL_ERR_INVALID_SERVER_IPNET	include/ErrorNo.h	23;"	d
+RES_VPN_MOBILE_SSL_ERR_INVALID_WINS	include/ErrorNo.h	27;"	d
+RES_VPN_MOBILE_SSL_ERR_INVALID_WINS2	include/ErrorNo.h	28;"	d
+RES_VPN_MOBILE_SSL_ERR_IP_ASSIGNED	include/ErrorNo.h	29;"	d
+RES_VPN_MOBILE_SSL_ERR_IP_NOT_IN_GROUP_NET	include/ErrorNo.h	32;"	d
+RES_VPN_MOBILE_SSL_ERR_IP_NOT_IN_SSL_NET	include/ErrorNo.h	30;"	d
+RES_VPN_MOBILE_SSL_ERR_IP_USED_IN_POOL	include/ErrorNo.h	31;"	d
+RES_VPN_MOBILE_SSL_ERR_UPLIMIT	include/ErrorNo.h	11;"	d
+RES_VPN_MOBILE_SSL_ERR_USER_EXISTED	include/ErrorNo.h	9;"	d
+RES_VPN_MOBILE_SSL_ERR_USER_RESERVED	include/ErrorNo.h	10;"	d
+RES_VPN_OPERATION_FAILED	include/ErrorNo.h	6;"	d
+RES_VPN_OPERATION_NORMAL	include/ErrorNo.h	4;"	d
+RES_VPN_OPERATION_OK	include/ErrorNo.h	5;"	d
+RIPD_CMD	include/filedefine.h	852;"	d
+RIPD_CONF_FILE	include/filedefine.h	197;"	d
+RIPD_CONF_FILE_C	include/filedefine.h	357;"	d
+RIPD_PIDFILE	include/filedefine.h	853;"	d
+RIP_CONF_FILE	include/filedefine.h	196;"	d
+RIP_CONF_FILE_C	include/filedefine.h	356;"	d
+RM	include/filedefine.h	639;"	d
+RO	include/localdef.h	181;"	d
+ROOT_DEV	include/localdef.h	537;"	d
+ROOT_MOUNT_POINT	include/filedefine.h	640;"	d
+ROUTE	include/filedefine.h	641;"	d
+ROUTE_CMD	include/filedefine.h	642;"	d
+ROUTE_CONF_FILE	include/filedefine.h	138;"	d
+ROUTE_CONF_FILE_C	include/filedefine.h	309;"	d
+ROUTE_GROUP_CONF_FILE	include/filedefine.h	139;"	d
+ROUTE_GROUP_CONF_FILE_C	include/filedefine.h	310;"	d
+RULE_MAX	include/localdef.h	555;"	d
+RUNNING	include/localdef.h	104;"	d
+RUNNING_CONF	include/filedefine.h	140;"	d
+RUNNING_DEV_DEFINE	local.h	43;"	d
+RUNNING_FW_RULES	include/filedefine.h	825;"	d
+RUNNING_RESOLV_FILE	include/filedefine.h	142;"	d
+RW	include/localdef.h	180;"	d
+Req_Client_Reset	local.h	134;"	d
+SA	include/localdef.h	/^typedef	struct sockaddr SA;$/;"	t	typeref:struct:sockaddr
+SA	include/localdef.h	26;"	d
+SAFE_BCRELAY_CMD	include/filedefine.h	643;"	d
+SAFE_BCRELAY_PIDFILE	include/filedefine.h	644;"	d
+SAFE_CLUSTER	include/filedefine.h	645;"	d
+SAFE_CLUSTER	local.h	11;"	d
+SAFE_CLUSTER_OBJ	Makefile	/^SAFE_CLUSTER_OBJ:= safe_cluster.o $(OBJ) $(OBJ1)$/;"	m
+SAFE_CLUSTER_PIDFILE	include/filedefine.h	646;"	d
+SAFE_CLUSTER_PIDFILE	local.h	12;"	d
+SAFE_CLUSTER_VERSION	local.h	4;"	d
+SAFE_DHCPCD1_CMD	include/filedefine.h	647;"	d
+SAFE_DHCPCD1_CMD1	include/filedefine.h	648;"	d
+SAFE_DHCPCD1_PID_FILE	include/filedefine.h	649;"	d
+SAFE_DHCPCD2_CMD	include/filedefine.h	650;"	d
+SAFE_DHCPCD2_CMD1	include/filedefine.h	651;"	d
+SAFE_DHCPCD2_PID_FILE	include/filedefine.h	652;"	d
+SAFE_DHCPCD3_CMD	include/filedefine.h	653;"	d
+SAFE_DHCPCD3_CMD1	include/filedefine.h	654;"	d
+SAFE_DHCPCD3_PID_FILE	include/filedefine.h	655;"	d
+SAFE_DHCPCD_CMD	include/filedefine.h	656;"	d
+SAFE_DHCPCD_CMD1	include/filedefine.h	657;"	d
+SAFE_DHCPCD_PID_FILE	include/filedefine.h	658;"	d
+SAFE_DHCPCD_PID_FILE	include/filedefine.h	659;"	d
+SAFE_DHCPD_CMD	include/filedefine.h	660;"	d
+SAFE_DHCPD_PID_FILE	include/filedefine.h	661;"	d
+SAFE_HTTPD_CMD	include/filedefine.h	662;"	d
+SAFE_HTTPD_PIDFILE	include/filedefine.h	663;"	d
+SAFE_INDEX_CMD	include/filedefine.h	664;"	d
+SAFE_INDEX_PIDFILE	include/filedefine.h	665;"	d
+SAFE_MODEM	include/filedefine.h	666;"	d
+SAFE_MODEM_PIDFILE	include/filedefine.h	667;"	d
+SAFE_MONITOR_CMD	include/filedefine.h	903;"	d
+SAFE_MONITOR_PIDFILE	include/filedefine.h	904;"	d
+SAFE_NAMED_CMD	include/filedefine.h	668;"	d
+SAFE_NAMED_PID_FILE	include/filedefine.h	669;"	d
+SAFE_PLUS	include/filedefine.h	670;"	d
+SAFE_PLUS_CMD	include/filedefine.h	671;"	d
+SAFE_PLUS_PIDFILE	include/filedefine.h	672;"	d
+SAFE_POLICY_PIDFILE	include/filedefine.h	673;"	d
+SAFE_POLICY_PIDFILE	local.h	36;"	d
+SAFE_PPTPD_CMD	include/filedefine.h	674;"	d
+SAFE_PPTPD_PID	include/filedefine.h	675;"	d
+SAFE_SQUID_CMD	include/filedefine.h	676;"	d
+SAFE_SQUID_PIDFILE	include/filedefine.h	677;"	d
+SAFE_SSLVPN_CMD	include/filedefine.h	678;"	d
+SAFE_SSLVPN_PIDFILE	include/filedefine.h	679;"	d
+SAFE_TSSL_CLIENT	include/filedefine.h	680;"	d
+SAFE_TSSL_CLIENT_PIDFILE	include/filedefine.h	681;"	d
+SAFE_TSSL_SERVER	include/filedefine.h	682;"	d
+SAFE_TSSL_SERVER_PIDFILE	include/filedefine.h	683;"	d
+SAFE_WEBSSLENT_CMD	include/filedefine.h	684;"	d
+SAFE_WEBSSLENT_PIDFILE	include/filedefine.h	685;"	d
+SAFE_WEBSSL_CMD	include/filedefine.h	686;"	d
+SAFE_WEBSSL_PIDFILE	include/filedefine.h	687;"	d
+SALE_LICENSE_INFO	include/license.h	/^} SALE_LICENSE_INFO;$/;"	t	typeref:struct:_license_info
+SAVE_OPERATION_LOCKFILE	include/filedefine.h	688;"	d
+SAVE_TAG_FILE	include/filedefine.h	143;"	d
+SELF_FILE	include/filedefine.h	144;"	d
+SELF_FILE_C	include/filedefine.h	311;"	d
+SENDPIDFILE	include/filedefine.h	689;"	d
+SEND_ARP	local.h	112;"	d
+SERVERS_CONF_FILE	include/filedefine.h	145;"	d
+SERVERS_CONF_FILE_C	include/filedefine.h	312;"	d
+SHADOW_FILE	include/filedefine.h	690;"	d
+SMS_STATUS_CONF	include/filedefine.h	146;"	d
+SNMPD_BASIC_CONF_FILE	include/filedefine.h	201;"	d
+SNMPD_BASIC_CONF_FILE_C	include/filedefine.h	361;"	d
+SNMPD_CMD	include/filedefine.h	883;"	d
+SNMPD_CONF_FILE	include/filedefine.h	202;"	d
+SNMPD_CONF_FILE_C	include/filedefine.h	362;"	d
+SNMPD_PIDFILE	include/filedefine.h	884;"	d
+SNMP_STATUS	include/localdef.h	/^	SNMP_STATUS$/;"	e	enum:_button_actions
+SORT	include/filedefine.h	691;"	d
+SORT_SSLVPN_RUNNING	include/filedefine.h	692;"	d
+SORT_TSSLVPN_RUNNING	include/filedefine.h	693;"	d
+SPEED_10	include/localdef.h	/^    SPEED_10 = 10,$/;"	e	enum:_link_speed
+SPEED_100	include/localdef.h	/^    SPEED_100 = 100,$/;"	e	enum:_link_speed
+SPEED_1000	include/localdef.h	/^    SPEED_1000 = 1000$/;"	e	enum:_link_speed
+SPEED_AUTO	include/localdef.h	/^    SPEED_AUTO = 0,$/;"	e	enum:_link_speed
+SQUID_CMD	include/filedefine.h	694;"	d
+SQUID_CONF_FILE	include/filedefine.h	147;"	d
+SQUID_CONF_FILE_C	include/filedefine.h	313;"	d
+SQUID_ENABLED	include/localdef.h	355;"	d
+SQUID_ENABLED	include/localdef.h	370;"	d
+SQUID_ENABLED	include/localdef.h	376;"	d
+SQUID_ENABLED	include/localdef.h	384;"	d
+SQUID_ENABLED	include/localdef.h	396;"	d
+SQUID_PIDFILE	include/filedefine.h	695;"	d
+SSHCMD	include/filedefine.h	696;"	d
+SSHD_CMD	include/filedefine.h	697;"	d
+SSHD_PIDFILE	include/filedefine.h	698;"	d
+SSHD_STATUS	include/localdef.h	/^	SSHD_STATUS,$/;"	e	enum:_button_actions
+SSLSERVER1_CONF_FILE	include/filedefine.h	148;"	d
+SSLSERVER1_CONF_FILE_C	include/filedefine.h	314;"	d
+SSLSERVER2_CONF_FILE	include/filedefine.h	149;"	d
+SSLSERVER2_CONF_FILE_C	include/filedefine.h	315;"	d
+SSLSERVER3_CONF_FILE	include/filedefine.h	150;"	d
+SSLSERVER3_CONF_FILE_C	include/filedefine.h	316;"	d
+SSLSERVER_CONF_FILE	include/filedefine.h	151;"	d
+SSLSERVER_CONF_FILE_C	include/filedefine.h	317;"	d
+SSLUSER_CONF_FILE	include/filedefine.h	152;"	d
+SSLUSER_CONF_FILE_C	include/filedefine.h	318;"	d
+SSLUSER_LOCK_FILE	include/filedefine.h	605;"	d
+SSLVPN1_PIDFILE	include/filedefine.h	699;"	d
+SSLVPN1_RUNNING	include/filedefine.h	700;"	d
+SSLVPN2_PIDFILE	include/filedefine.h	701;"	d
+SSLVPN2_RUNNING	include/filedefine.h	702;"	d
+SSLVPN3_PIDFILE	include/filedefine.h	703;"	d
+SSLVPN3_RUNNING	include/filedefine.h	704;"	d
+SSLVPN_BUILD_CMD	include/filedefine.h	705;"	d
+SSLVPN_CMD	include/filedefine.h	706;"	d
+SSLVPN_EXPORT_DUMP_FILE	include/filedefine.h	470;"	d
+SSLVPN_LOGFILE	include/filedefine.h	707;"	d
+SSLVPN_PIDFILE	include/filedefine.h	708;"	d
+SSLVPN_RUNNING	include/filedefine.h	709;"	d
+SSLVPN_RUNNING_ALL	include/filedefine.h	710;"	d
+SSL_CONF_FILE	include/filedefine.h	153;"	d
+SSL_CONF_FILE_C	include/filedefine.h	319;"	d
+SSL_PROFILE_MAX	include/localdef.h	583;"	d
+SSL_REMOTEIP_DEFAULT	include/localdef.h	203;"	d
+SSL_STAT	include/filedefine.h	711;"	d
+SSL_STATUS	include/localdef.h	/^	SSL_STATUS,$/;"	e	enum:_button_actions
+STARTPROC	include/filedefine.h	712;"	d
+STARTPROC	local.h	69;"	d
+STARTUP	include/localdef.h	103;"	d
+STATUS_CONF_FILE	include/filedefine.h	154;"	d
+STATUS_CONF_FILE_C	include/filedefine.h	320;"	d
+STYLE_MESH	include/localdef.h	114;"	d
+STYLE_STAR	include/localdef.h	115;"	d
+SUQID_CONF_FILE	include/filedefine.h	155;"	d
+SYNC_WEB_PORT	include/filedefine.h	713;"	d
+SYNC_WEB_PORT	local.h	29;"	d
+SYSINFO_FILE	include/filedefine.h	714;"	d
+SYSLOGD	include/filedefine.h	715;"	d
+SYSLOGD_CMD	include/filedefine.h	716;"	d
+SYSLOGD_PIDFILE	include/filedefine.h	717;"	d
+SYSLOGD_PID_FILE	include/filedefine.h	718;"	d
+SYSLOG_CONF_FILE	include/filedefine.h	156;"	d
+SYSLOG_CONF_FILE_C	include/filedefine.h	321;"	d
+SYSLOG_LOGFILE	include/filedefine.h	719;"	d
+SYSTEM_LOGFILE	include/filedefine.h	720;"	d
+SYSTEM_MONITOR	include/filedefine.h	721;"	d
+SYSTEM_NOT_FIRST	include/filedefine.h	157;"	d
+SYSTEM_NOT_FIRST_C	include/filedefine.h	322;"	d
+SYSTEM_PRIV	include/localdef.h	227;"	d
+SYSTEM_USER_PRIV	include/localdef.h	228;"	d
+TAIL	include/filedefine.h	722;"	d
+TAR_CMD	include/filedefine.h	723;"	d
+TCPDUMP	include/filedefine.h	724;"	d
+TC_CONF_FILE	include/filedefine.h	158;"	d
+TC_CONF_FILE_C	include/filedefine.h	323;"	d
+TC_ENABLE	include/localdef.h	79;"	d
+TC_GROUP_CONF_FILE	include/filedefine.h	159;"	d
+TC_GROUP_CONF_FILE_C	include/filedefine.h	324;"	d
+TC_LAN_LIMIT_TAG	include/localdef.h	287;"	d
+TC_LIMIT	include/filedefine.h	725;"	d
+TC_LIMIT_CONF_FILE	include/filedefine.h	160;"	d
+TC_LIMIT_CONF_FILE_C	include/filedefine.h	325;"	d
+TC_LIMIT_TAG	include/localdef.h	292;"	d
+TC_PID_FILE	include/filedefine.h	726;"	d
+TC_POLICY_CONF_FILE	include/filedefine.h	161;"	d
+TC_POLICY_CONF_FILE_C	include/filedefine.h	326;"	d
+TC_RULE_CONF_FILE	include/filedefine.h	162;"	d
+TC_RULE_CONF_FILE_C	include/filedefine.h	327;"	d
+TC_RUN	include/filedefine.h	727;"	d
+TC_RUN_FUNC	include/filedefine.h	728;"	d
+TC_RUN_LAN	include/filedefine.h	729;"	d
+TC_RUN_WAN	include/filedefine.h	730;"	d
+TC_RUN_WAN1	include/filedefine.h	731;"	d
+TC_RUN_WAN2	include/filedefine.h	732;"	d
+TC_RUN_WAN3	include/filedefine.h	733;"	d
+TC_STATUS	include/localdef.h	/^	TC_STATUS,$/;"	e	enum:_button_actions
+TC_WAN1_IN_TAG	include/localdef.h	296;"	d
+TC_WAN1_LIMIT_TAG	include/localdef.h	289;"	d
+TC_WAN2_IN_TAG	include/localdef.h	297;"	d
+TC_WAN2_LIMIT_TAG	include/localdef.h	290;"	d
+TC_WAN3_IN_TAG	include/localdef.h	298;"	d
+TC_WAN3_LIMIT_TAG	include/localdef.h	291;"	d
+TC_WAN_IN_TAG	include/localdef.h	295;"	d
+TC_WAN_LIMIT_TAG	include/localdef.h	288;"	d
+TELNET	include/filedefine.h	734;"	d
+TEST	include/filedefine.h	815;"	d
+THIRD_CA_CRT	include/filedefine.h	923;"	d
+THIRD_CA_DIR	include/filedefine.h	922;"	d
+THIRD_CRL	include/filedefine.h	925;"	d
+THIRD_CRL_DER	include/filedefine.h	926;"	d
+THIRD_MIDDLE_CA_CRT	include/filedefine.h	924;"	d
+THIRD_SERVER_CRT	include/filedefine.h	929;"	d
+THIRD_SERVER_KEY	include/filedefine.h	930;"	d
+THIRD_SERVER_PEM	include/filedefine.h	928;"	d
+THIRD_SERVER_PFX	include/filedefine.h	927;"	d
+THTTPD	include/filedefine.h	735;"	d
+TIMEOUT_STATUS	local.h	85;"	d
+TIME_SYNCD_CMD	include/filedefine.h	736;"	d
+TIME_SYNCD_CMD1	include/filedefine.h	737;"	d
+TIME_SYNCD_PIDFILE	include/filedefine.h	738;"	d
+TIME_SYNC_SH	include/filedefine.h	936;"	d
+TMP_ACCESS_IPT_FILE	include/filedefine.h	163;"	d
+TMP_CONF_DB	include/filedefine.h	813;"	d
+TMP_DEBUG_IP_FILE	include/filedefine.h	739;"	d
+TMP_DHCPD_FIXEDIP_CONF	include/filedefine.h	164;"	d
+TMP_FILE	include/filedefine.h	740;"	d
+TMP_FORWARD_IPT_FILE	include/filedefine.h	165;"	d
+TMP_IP_CONNTRACK	include/filedefine.h	741;"	d
+TMP_LOG_FILE	include/filedefine.h	742;"	d
+TMP_MAIN_IPT_FILE	include/filedefine.h	166;"	d
+TMP_PORTFORWARD_IPT_FILE	include/filedefine.h	167;"	d
+TMP_PROC_NET_DEV	include/filedefine.h	743;"	d
+TRACEROUTE	include/filedefine.h	744;"	d
+TRAFFIC_DUMP	include/filedefine.h	745;"	d
+TRIVAL_VERSION	include/license.h	/^enum _sale_states { TRIVAL_VERSION, EXPIRED_VERSION, FULL_VERSION };$/;"	e	enum:_sale_states
+TRUE	cluster_recv.c	23;"	d	file:
+TRUE	cluster_send.c	21;"	d	file:
+TRUE	include/localdef.h	545;"	d
+TRUE	local.h	96;"	d
+TSSLSERVER_CONF_FILE	include/filedefine.h	168;"	d
+TSSLSERVER_CONF_FILE_C	include/filedefine.h	328;"	d
+TSSLVPN1_PIDFILE	include/filedefine.h	746;"	d
+TSSLVPN1_RUNNING	include/filedefine.h	747;"	d
+TSSLVPN2_PIDFILE	include/filedefine.h	748;"	d
+TSSLVPN2_RUNNING	include/filedefine.h	749;"	d
+TSSLVPN3_PIDFILE	include/filedefine.h	750;"	d
+TSSLVPN3_RUNNING	include/filedefine.h	751;"	d
+TSSLVPN_PIDFILE	include/filedefine.h	752;"	d
+TSSLVPN_RUNNING	include/filedefine.h	753;"	d
+TSSL_USER_CHECK	include/filedefine.h	754;"	d
+TSSL_VPN_PROFILE_MAX	include/localdef.h	307;"	d
+Touch_File	a/utils.c	/^int Touch_File(char *name)$/;"	f	signature:(char *name)
+Touch_File	a/utils.h	/^extern int Touch_File(char *name);$/;"	p	signature:(char *name)
+UNMOUNT	include/filedefine.h	755;"	d
+UP	include/localdef.h	187;"	d
+UP	local.h	94;"	d
+UPDATE_MESSAGE	include/filedefine.h	756;"	d
+UPDATE_PRIV	include/localdef.h	223;"	d
+UPDATE_PROCESS	include/filedefine.h	757;"	d
+UPDATE_TAG_FILE	include/filedefine.h	329;"	d
+UPLOAD_FILE	include/filedefine.h	758;"	d
+UP_STATUS	local.h	84;"	d
+URL_GROUP_CONF_FILE	include/filedefine.h	169;"	d
+URL_GROUP_CONF_FILE_C	include/filedefine.h	330;"	d
+URL_LIST_CONF_FILE	include/filedefine.h	170;"	d
+URL_LIST_CONF_FILE_C	include/filedefine.h	331;"	d
+URL_MODULE_START	include/filedefine.h	759;"	d
+URL_MODULE_STOP	include/filedefine.h	760;"	d
+URL_REDIRECT	include/filedefine.h	171;"	d
+URL_REDIRECT_C	include/filedefine.h	332;"	d
+USER_LIST_CONF_FILE	include/filedefine.h	172;"	d
+USER_LIST_CONF_FILE_C	include/filedefine.h	333;"	d
+USER_PRIV	include/localdef.h	219;"	d
+USER_TACTIC_APP_CONF_FILE	include/filedefine.h	173;"	d
+USER_TACTIC_APP_CONF_FILE_C	include/filedefine.h	334;"	d
+USER_TACTIC_LIMIT_CONF_FILE	include/filedefine.h	174;"	d
+USER_TACTIC_LIMIT_CONF_FILE_C	include/filedefine.h	335;"	d
+USER_TACTIC_URL_CONF_FILE	include/filedefine.h	175;"	d
+USER_TACTIC_URL_CONF_FILE_C	include/filedefine.h	336;"	d
+VCONFIG	include/filedefine.h	810;"	d
+VERSION_FILE	include/filedefine.h	176;"	d
+VERSION_FILE_C	include/filedefine.h	337;"	d
+VIRTUAL_WAN_ADD	local.h	116;"	d
+VLAN	include/localdef.h	175;"	d
+VLAN_MAX	include/localdef.h	57;"	d
+VPN	include/localdef.h	159;"	d
+VPN	local.h	147;"	d
+VPN1	include/localdef.h	166;"	d
+VPN1	local.h	152;"	d
+VPN1_DEV	include/interface.h	23;"	d
+VPN1_TAG	include/localdef.h	276;"	d
+VPN2	include/localdef.h	167;"	d
+VPN2	local.h	153;"	d
+VPN2_DEV	include/interface.h	24;"	d
+VPN2_TAG	include/localdef.h	277;"	d
+VPN3	include/localdef.h	168;"	d
+VPN3	local.h	154;"	d
+VPN3_DEV	include/interface.h	25;"	d
+VPN3_TAG	include/localdef.h	278;"	d
+VPN9_DEV	include/interface.h	26;"	d
+VPNRECV	include/filedefine.h	761;"	d
+VPNSEND	include/filedefine.h	762;"	d
+VPN_3G	include/localdef.h	169;"	d
+VPN_CONF_FILE	include/filedefine.h	177;"	d
+VPN_CONF_FILE_C	include/filedefine.h	338;"	d
+VPN_CORE_DB	include/filedefine.h	178;"	d
+VPN_DAEMON_CMD	include/filedefine.h	763;"	d
+VPN_DAEMON_CMD	local.h	119;"	d
+VPN_DAEMON_NOTICE	include/filedefine.h	764;"	d
+VPN_DEV	include/interface.h	22;"	d
+VPN_ICEFLOW_ENABLED	include/localdef.h	354;"	d
+VPN_ICEFLOW_ENABLED	include/localdef.h	369;"	d
+VPN_ICEFLOW_ENABLED	include/localdef.h	375;"	d
+VPN_ICEFLOW_ENABLED	include/localdef.h	383;"	d
+VPN_ICEFLOW_ENABLED	include/localdef.h	395;"	d
+VPN_ICEFLOW_STATUS	include/localdef.h	/^	VPN_ICEFLOW_STATUS,$/;"	e	enum:_button_actions
+VPN_LOGFILE	include/filedefine.h	765;"	d
+VPN_MANUAL_CONF_FILE	include/filedefine.h	179;"	d
+VPN_MANUAL_CONF_FILE_C	include/filedefine.h	339;"	d
+VPN_MODE_FILE	include/filedefine.h	766;"	d
+VPN_PROFILE_CONF_FILE	include/filedefine.h	180;"	d
+VPN_PROFILE_CONF_FILE_C	include/filedefine.h	340;"	d
+VPN_PROFILE_MAX	include/localdef.h	302;"	d
+VPN_PROFILE_MAX	include/localdef.h	304;"	d
+VPN_STATUS	include/localdef.h	/^	VPN_STATUS,$/;"	e	enum:_button_actions
+VPN_STATUS_CMD	include/filedefine.h	767;"	d
+VPN_STATUS_FILE	include/filedefine.h	768;"	d
+VPN_STATUS_ICEFLOW_FILE	include/filedefine.h	769;"	d
+VPN_STATUS_MANUAL_FILE	include/filedefine.h	770;"	d
+VPN_SWAP_FILE	include/filedefine.h	771;"	d
+VPN_TAG	include/localdef.h	275;"	d
+VPN_WEBSSL_CLIENT_STATUS	include/localdef.h	/^	VPN_WEBSSL_CLIENT_STATUS,$/;"	e	enum:_button_actions
+VPN_WEBSSL_ENT_STATUS	include/localdef.h	/^	VPN_WEBSSL_ENT_STATUS,$/;"	e	enum:_button_actions
+VPN_WEBSSL_STATUS	include/localdef.h	/^	VPN_WEBSSL_STATUS,$/;"	e	enum:_button_actions
+VRRP_CONF_FILE	include/filedefine.h	193;"	d
+VRRP_CONF_FILE_C	include/filedefine.h	353;"	d
+Valid_IP	a/utils.c	/^int Valid_IP(const char *ip_addr)$/;"	f	signature:(const char *ip_addr)
+Valid_IP	a/utils.h	/^extern int Valid_IP(const char *ip_addr);$/;"	p	signature:(const char *ip_addr)
+Valid_IP_Subnet	a/utils.c	/^int Valid_IP_Subnet(const char *addr)$/;"	f	signature:(const char *addr)
+Valid_IP_Subnet	a/utils.h	/^extern int Valid_IP_Subnet(const char *addr);$/;"	p	signature:(const char *addr)
+Valid_Netmask	a/utils.c	/^int Valid_Netmask(const char *netmask)$/;"	f	signature:(const char *netmask)
+Valid_Netmask	a/utils.h	/^extern int Valid_Netmask(const char *netmask);$/;"	p	signature:(const char *netmask)
+Valid_Num	a/utils.c	/^int Valid_Num(char *s)$/;"	f	signature:(char *s)
+Valid_Num	a/utils.h	/^extern int Valid_Num(char *s);$/;"	p	signature:(char *s)
+WAN	include/localdef.h	158;"	d
+WAN	local.h	146;"	d
+WAN0	include/localdef.h	160;"	d
+WAN1	include/localdef.h	161;"	d
+WAN1	local.h	148;"	d
+WAN1_CHECK_TABLE_INDEX	include/localdef.h	263;"	d
+WAN1_CHECK_TAG	include/localdef.h	281;"	d
+WAN1_DEV	include/interface.h	50;"	d
+WAN1_STATUS	include/localdef.h	/^	WAN1_STATUS,$/;"	e	enum:_button_actions
+WAN1_TABLE_INDEX	include/localdef.h	257;"	d
+WAN1_TAG	include/localdef.h	272;"	d
+WAN2	include/localdef.h	162;"	d
+WAN2	local.h	149;"	d
+WAN2_CHECK_TABLE_INDEX	include/localdef.h	264;"	d
+WAN2_CHECK_TAG	include/localdef.h	282;"	d
+WAN2_DEV	include/interface.h	51;"	d
+WAN2_STATUS	include/localdef.h	/^	WAN2_STATUS,$/;"	e	enum:_button_actions
+WAN2_TABLE_INDEX	include/localdef.h	258;"	d
+WAN2_TAG	include/localdef.h	273;"	d
+WAN3	include/localdef.h	163;"	d
+WAN3	local.h	150;"	d
+WAN3_CHECK_TABLE_INDEX	include/localdef.h	265;"	d
+WAN3_CHECK_TAG	include/localdef.h	283;"	d
+WAN3_STATUS	include/localdef.h	/^	WAN3_STATUS,$/;"	e	enum:_button_actions
+WAN3_TABLE_INDEX	include/localdef.h	259;"	d
+WAN3_TAG	include/localdef.h	274;"	d
+WAN_3G	include/localdef.h	164;"	d
+WAN_3G_DAEMON	include/filedefine.h	772;"	d
+WAN_3G_DAEMON_PID_FILE	include/filedefine.h	773;"	d
+WAN_3G_PPPD_PID_FILE	include/filedefine.h	774;"	d
+WAN_3G_START	include/filedefine.h	775;"	d
+WAN_3G_STATUS	include/localdef.h	/^	WAN_3G_STATUS,$/;"	e	enum:_button_actions
+WAN_3G_STOP	include/filedefine.h	776;"	d
+WAN_ADSL	include/localdef.h	75;"	d
+WAN_ADSL_AUTH_FAILED	include/filedefine.h	777;"	d
+WAN_ADSL_CONN_TIMEOUT	include/filedefine.h	778;"	d
+WAN_ADSL_PEER_TERM	include/filedefine.h	779;"	d
+WAN_CABLEMODEM	include/localdef.h	77;"	d
+WAN_CHECK_TABLE_INDEX	include/localdef.h	262;"	d
+WAN_CHECK_TAG	include/localdef.h	280;"	d
+WAN_CONF_FILE	include/filedefine.h	181;"	d
+WAN_CONF_FILE_C	include/filedefine.h	341;"	d
+WAN_DDN	include/localdef.h	76;"	d
+WAN_DEV	include/interface.h	56;"	d
+WAN_DHCP	include/localdef.h	64;"	d
+WAN_DHCP_NAT	include/localdef.h	70;"	d
+WAN_FIXEDIP	include/localdef.h	63;"	d
+WAN_FIXEDIP_NAT	include/localdef.h	69;"	d
+WAN_GUARD	include/filedefine.h	780;"	d
+WAN_MAX	include/localdef.h	236;"	d
+WAN_MODEM	include/localdef.h	65;"	d
+WAN_MODEM_CHECK_TABLE_INDEX	include/localdef.h	261;"	d
+WAN_MODEM_NAT	include/localdef.h	71;"	d
+WAN_MODEM_TABLE_INDEX	include/localdef.h	255;"	d
+WAN_MODEM_TAG	include/localdef.h	270;"	d
+WAN_MODE_3G	include/localdef.h	66;"	d
+WAN_NOSPEC	include/localdef.h	73;"	d
+WAN_PPPOE	include/localdef.h	62;"	d
+WAN_PPPOE_NAT	include/localdef.h	68;"	d
+WAN_STATUS	include/localdef.h	/^	WAN_STATUS,$/;"	e	enum:_button_actions
+WAN_TABLE_INDEX	include/localdef.h	256;"	d
+WAN_TAG	include/localdef.h	271;"	d
+WAN_UNDEF	include/localdef.h	61;"	d
+WARN_CHECK_CMD	include/filedefine.h	781;"	d
+WARN_CHECK_CMD1	include/filedefine.h	782;"	d
+WARN_CHECK_PID	include/filedefine.h	783;"	d
+WARN_LOGFILE	include/filedefine.h	784;"	d
+WARN_NOTIFY	include/filedefine.h	785;"	d
+WC	include/filedefine.h	786;"	d
+WEBPRINT	include/localdef.h	458;"	d
+WEBPRINT	include/localdef.h	520;"	d
+WEBSSL	include/localdef.h	551;"	d
+WEBSSLENT_PIDFILE	include/filedefine.h	787;"	d
+WEBSSLSERVER_CONF_FILE	include/filedefine.h	182;"	d
+WEBSSLSERVER_CONF_FILE_C	include/filedefine.h	342;"	d
+WEBSSLVPN_RUNNING	include/filedefine.h	788;"	d
+WEBSSL_CLIENT	include/localdef.h	552;"	d
+WEBSSL_CONF_FILE	include/filedefine.h	183;"	d
+WEBSSL_CONF_FILE_C	include/filedefine.h	343;"	d
+WEBSSL_ENT	include/localdef.h	553;"	d
+WEBSSL_ENT_LOGO	include/filedefine.h	791;"	d
+WEBSSL_ENT_SITE_CONF_FILE	include/filedefine.h	184;"	d
+WEBSSL_ENT_SITE_CONF_FILE_C	include/filedefine.h	344;"	d
+WEBSSL_ENT_SITE_DOMAIN_CONF_FILE	include/filedefine.h	185;"	d
+WEBSSL_ENT_SITE_DOMAIN_CONF_FILE_C	include/filedefine.h	345;"	d
+WEBSSL_ENT_SPLASH	include/filedefine.h	792;"	d
+WEBSSL_GROUP_CONF_FILE	include/filedefine.h	186;"	d
+WEBSSL_GROUP_CONF_FILE_C	include/filedefine.h	346;"	d
+WEBSSL_JS	include/filedefine.h	794;"	d
+WEBSSL_LIMIT_FILE	include/filedefine.h	188;"	d
+WEBSSL_LIMIT_FILE_C	include/filedefine.h	348;"	d
+WEBSSL_PRIV	include/localdef.h	231;"	d
+WEBSSL_PROFILE_MAX	include/localdef.h	584;"	d
+WEBSSL_RC_GROUP_CONF_FILE	include/filedefine.h	187;"	d
+WEBSSL_RC_GROUP_CONF_FILE_C	include/filedefine.h	347;"	d
+WEBSSL_SERVER	include/filedefine.h	795;"	d
+WEBSSL_SITE_CONF_FILE	include/filedefine.h	189;"	d
+WEBSSL_SITE_CONF_FILE_C	include/filedefine.h	349;"	d
+WEBSSL_STAT	include/filedefine.h	796;"	d
+WEBSSL_STATUS_FILE	include/filedefine.h	797;"	d
+WEBSSL_USER	include/filedefine.h	798;"	d
+WEBSSL_USER_CONF_FILE	include/filedefine.h	190;"	d
+WEBSSL_USER_CONF_FILE_C	include/filedefine.h	350;"	d
+WEBSSL_USER_IMPORT_FILE	include/filedefine.h	799;"	d
+WEBSSL_USER_RC_SSO_CONF_FILE	include/filedefine.h	204;"	d
+WEBSSL_USER_RC_SSO_CONF_FILE_C	include/filedefine.h	364;"	d
+WEBUI_PEM	include/filedefine.h	890;"	d
+WEB_ACCCESS_TEMPLATE	include/filedefine.h	800;"	d
+WEB_CONF_FILE	include/filedefine.h	191;"	d
+WEB_CONF_FILE_C	include/filedefine.h	351;"	d
+WEB_ENABLED	include/localdef.h	351;"	d
+WEB_ENABLED	include/localdef.h	363;"	d
+WEB_ENABLED	include/localdef.h	373;"	d
+WEB_ENABLED	include/localdef.h	380;"	d
+WEB_ENABLED	include/localdef.h	388;"	d
+WEB_STATUS	include/localdef.h	/^	WEB_STATUS,$/;"	e	enum:_button_actions
+WEB_TEMPLATE	include/filedefine.h	801;"	d
+WEB_TYPE_APACHE	include/localdef.h	560;"	d
+WEB_TYPE_LIGHTTPD	include/localdef.h	558;"	d
+WEB_TYPE_THTTPD	include/localdef.h	559;"	d
+WHO	include/filedefine.h	802;"	d
+XARGS	include/filedefine.h	870;"	d
+XL2PTD_CONF_FILE	include/filedefine.h	864;"	d
+YES	a/utils.h	5;"	d
+YES	include/localdef.h	206;"	d
+YES	include/utils.h	10;"	d
+ZEBRA_CMD	include/filedefine.h	854;"	d
+ZEBRA_CONF_FILE	include/filedefine.h	198;"	d
+ZEBRA_CONF_FILE_C	include/filedefine.h	358;"	d
+ZEBRA_PIDFILE	include/filedefine.h	855;"	d
+_ADAPTER_H	include/adapter.h	20;"	d
+_CLUSTER_UTILS_H	cluster_utils.h	2;"	d
+_ERRORNO_H	include/ErrorNo.h	2;"	d
+_FILEDEFINE_H	include/filedefine.h	19;"	d
+_FILEDEFINE_H	include/filedefine.h	803;"	d
+_GLOBAL_H	global.h	2;"	d
+_GNU_SOURCE	cluster_recv.c	5;"	d	file:
+_GNU_SOURCE	cluster_send.c	5;"	d	file:
+_INTERFACE_H	include/interface.h	19;"	d
+_LICENSE_H	include/license.h	2;"	d
+_LOCALDEF_H	include/localdef.h	2;"	d
+_LOCAL_H	local.h	2;"	d
+_PATH_MROUTED_CACHE	include/filedefine.h	804;"	d
+_PATH_MROUTED_DUMP	include/filedefine.h	805;"	d
+_PATH_MROUTED_GENID	include/filedefine.h	806;"	d
+_PATH_MROUTED_PID	include/filedefine.h	807;"	d
+_UTILS_H	a/utils.h	2;"	d
+_UTILS_H	include/utils.h	2;"	d
+__anon1::ifindex	send_arp.c	/^    unsigned int ifindex;       \/* Interface index *\/	$/;"	m	struct:__anon1	file:	access:public
+__anon1::ifname	send_arp.c	/^    char ifname[IF_NAMESIZ + 1];    \/* Interface name *\/$/;"	m	struct:__anon1	file:	access:public
+__anon1::sin_addr	send_arp.c	/^	struct in_addr sin_addr;$/;"	m	struct:__anon1	typeref:struct:__anon1::in_addr	file:	access:public
+__anon1::sin_brd	send_arp.c	/^	struct in_addr sin_brd;$/;"	m	struct:__anon1	typeref:struct:__anon1::in_addr	file:	access:public
+__anon1::src_hw_addr	send_arp.c	/^	unsigned char src_hw_addr[6];$/;"	m	struct:__anon1	file:	access:public
+_button_actions	include/localdef.h	/^enum _button_actions {$/;"	g
+_conf_req	include/adapter.h	/^typedef struct _conf_req {$/;"	s
+_conf_req::filename	include/adapter.h	/^    char filename[128]; \/\/ 操作文件名$/;"	m	struct:_conf_req	access:public
+_conf_req::id	include/adapter.h	/^    int id;     		\/\/ 协议ID: CONF_MODITY_REQ$/;"	m	struct:_conf_req	access:public
+_conf_req::key	include/adapter.h	/^    char key[1024]; 	\/\/ 定位key值$/;"	m	struct:_conf_req	access:public
+_conf_req::opt	include/adapter.h	/^    int  opt; 			\/\/ 操作方式 详见 enum _enum_conf_opt;$/;"	m	struct:_conf_req	access:public
+_conf_req::pos	include/adapter.h	/^    int  pos; 			\/\/ 当操作方式为MOD_POS, 指定行数$/;"	m	struct:_conf_req	access:public
+_conf_req::priority	include/adapter.h	/^    int  priority; 		\/\/ 操作优先级，详见 enum _enum_conf_priority$/;"	m	struct:_conf_req	access:public
+_conf_req::tag	include/adapter.h	/^    char tag; 			\/\/ 文件数据库,分隔符$/;"	m	struct:_conf_req	access:public
+_conf_req::type	include/adapter.h	/^    int type;   		\/\/ 数据库操作类型, 详见 enum _enum_conf_type$/;"	m	struct:_conf_req	access:public
+_conf_req::value	include/adapter.h	/^    char value[1024];  	\/\/ 文件数据库操作值，数据库系统时为执行的sql语句$/;"	m	struct:_conf_req	access:public
+_conf_res	include/adapter.h	/^typedef struct _conf_res {$/;"	s
+_conf_res::ack	include/adapter.h	/^	int ack; 			\/\/ 返回值: 0 - 正常，非0-异常$/;"	m	struct:_conf_res	access:public
+_conf_res::id	include/adapter.h	/^    int id;     		\/\/ 协议ID: CONF_MODITY_REQ$/;"	m	struct:_conf_res	access:public
+_dev_types	include/localdef.h	/^enum _dev_types { DEV_ACTIVE, DEV_PASSIVE, DEV_SELECT };$/;"	g
+_enum_actions	cluster_utils.h	/^enum _enum_actions { OPT_NONE, OPT_ADD, OPT_REMOVE };$/;"	g
+_enum_conf_opt	include/adapter.h	/^enum _enum_conf_opt$/;"	g
+_enum_conf_priority	include/adapter.h	/^enum _enum_conf_priority$/;"	g
+_enum_conf_type	include/adapter.h	/^enum _enum_conf_type$/;"	g
+_hb_packet	cluster_utils.h	/^typedef struct _hb_packet {$/;"	s
+_hb_packet::cluster_id	cluster_utils.h	/^	uint8 cluster_id;$/;"	m	struct:_hb_packet	access:public
+_hb_packet::cluster_mode	cluster_utils.h	/^	uint8 cluster_mode;$/;"	m	struct:_hb_packet	access:public
+_hb_packet::cluster_type	cluster_utils.h	/^	uint8 cluster_type;$/;"	m	struct:_hb_packet	access:public
+_hb_packet::msg_type	cluster_utils.h	/^	uint8 msg_type;$/;"	m	struct:_hb_packet	access:public
+_hb_packet::reserver	cluster_utils.h	/^	uint8 reserver[8]; 	\/\/ reserver[16]$/;"	m	struct:_hb_packet	access:public
+_hb_packet::virtual_func_status	cluster_utils.h	/^	uint8 virtual_func_status;$/;"	m	struct:_hb_packet	access:public
+_hb_packet::virtual_lan1_status	cluster_utils.h	/^	uint8 virtual_lan1_status;$/;"	m	struct:_hb_packet	access:public
+_hb_packet::virtual_lan_status	cluster_utils.h	/^	uint8 virtual_lan_status;$/;"	m	struct:_hb_packet	access:public
+_hb_packet::virtual_wan1_status	cluster_utils.h	/^	uint8 virtual_wan1_status;$/;"	m	struct:_hb_packet	access:public
+_hb_packet::virtual_wan2_status	cluster_utils.h	/^	uint8 virtual_wan2_status;$/;"	m	struct:_hb_packet	access:public
+_hb_packet::virtual_wan3_status	cluster_utils.h	/^	uint8 virtual_wan3_status;$/;"	m	struct:_hb_packet	access:public
+_hb_packet::virtual_wan_status	cluster_utils.h	/^	uint8 virtual_wan_status;$/;"	m	struct:_hb_packet	access:public
+_hb_packet::vpn_status	cluster_utils.h	/^	uint8 vpn_status;$/;"	m	struct:_hb_packet	access:public
+_hb_packet::wan1_status	cluster_utils.h	/^	uint8 wan1_status;$/;"	m	struct:_hb_packet	access:public
+_hb_packet::wan2_status	cluster_utils.h	/^	uint8 wan2_status;$/;"	m	struct:_hb_packet	access:public
+_hb_packet::wan3_status	cluster_utils.h	/^	uint8 wan3_status;$/;"	m	struct:_hb_packet	access:public
+_hb_packet::wan_status	cluster_utils.h	/^	uint8 wan_status;$/;"	m	struct:_hb_packet	access:public
+_int_type_enum	include/localdef.h	/^enum _int_type_enum$/;"	g
+_ip_mode_enum	include/localdef.h	/^enum _ip_mode_enum$/;"	g
+_license_info	include/license.h	/^typedef struct _license_info$/;"	s
+_license_info::due_date	include/license.h	/^	char due_date[24];$/;"	m	struct:_license_info	access:public
+_license_info::sale_state	include/license.h	/^	int sale_state;$/;"	m	struct:_license_info	access:public
+_link_duplex	include/localdef.h	/^enum _link_duplex$/;"	g
+_link_speed	include/localdef.h	/^enum _link_speed$/;"	g
+_link_status	include/localdef.h	/^enum _link_status$/;"	g
+_ret_pass_auth	include/localdef.h	/^enum _ret_pass_auth { PASS_AUTH_NORMAL, PASS_AUTH_OK, PASS_AUTH_FAILED, PASS_CHANGE_OK, PASS_CHANGE_FAILED };$/;"	g
+_sale_states	include/license.h	/^enum _sale_states { TRIVAL_VERSION, EXPIRED_VERSION, FULL_VERSION };$/;"	g
+ack	include/adapter.h	/^	int ack; 			\/\/ 返回值: 0 - 正常，非0-异常$/;"	m	struct:_conf_res	access:public
+arp_info	send_arp.c	/^m_arp_info arp_info;$/;"	v
+arp_packet	send_arp.c	/^int arp_packet(char *buffer, unsigned int  src_ip, unsigned int dst_ip) {$/;"	f	signature:(char *buffer, unsigned int src_ip, unsigned int dst_ip)
+arp_send	send_arp.c	/^void arp_send(int fd, m_arp_info *info) {$/;"	f	signature:(int fd, m_arp_info *info)
+ascii_to_secondes	include/utils.h	/^extern time_t ascii_to_secondes(char *buf);$/;"	p	signature:(char *buf)
+become_daemon	a/utils.c	/^int become_daemon(const char *pidfile)$/;"	f	signature:(const char *pidfile)
+become_daemon	a/utils.h	/^extern int become_daemon(const char *pidfile);$/;"	p	signature:(const char *pidfile)
+become_daemon	include/utils.h	/^extern int become_daemon(const char *pidfile);$/;"	p	signature:(const char *pidfile)
+change_string	include/utils.h	/^extern int change_string(char *s, int size, const char from, const char to);$/;"	p	signature:(char *s, int size, const char from, const char to)
+check_file	sync_conf.sh	/^function check_file ()$/;"	f
+check_sale_state	include/license.h	/^extern int check_sale_state();$/;"	p	signature:()
+check_sync	safe_cluster.c	/^void check_sync()$/;"	f
+check_web	safe_cluster.c	/^void check_web()$/;"	f
+clear_arp_proxy	cluster_utils.c	/^void clear_arp_proxy()$/;"	f
+clear_arp_proxy	cluster_utils.h	/^extern void clear_arp_proxy();$/;"	p	signature:()
+clear_tag	safe_cluster.c	/^void clear_tag()$/;"	f
+client_reset	cluster_utils.c	/^int client_reset(int type)$/;"	f	signature:(int type)
+client_reset	cluster_utils.h	/^extern int client_reset(int type);$/;"	p	signature:(int type)
+client_reset_group	cluster_utils.c	/^int client_reset_group(int type, int group)$/;"	f	signature:(int type, int group)
+cluster_check	cluster_utils.c	/^short cluster_check(HB_PACKET *hb)$/;"	f	signature:(HB_PACKET *hb)
+cluster_check	cluster_utils.h	/^extern short cluster_check(HB_PACKET *hb);$/;"	p	signature:(HB_PACKET *hb)
+cluster_id	cluster_utils.h	/^	uint8 cluster_id;$/;"	m	struct:_hb_packet	access:public
+cluster_mode	cluster_utils.h	/^	uint8 cluster_mode;$/;"	m	struct:_hb_packet	access:public
+cluster_read	cluster_utils.c	/^int cluster_read(const char *conf_file)$/;"	f	signature:(const char *conf_file)
+cluster_read	cluster_utils.h	/^extern int cluster_read(const char *conf_file);$/;"	p	signature:(const char *conf_file)
+cluster_type	cluster_utils.h	/^	uint8 cluster_type;$/;"	m	struct:_hb_packet	access:public
+connect_alarm	a/utils.c	/^void connect_alarm(int signo)$/;"	f	signature:(int signo)
+connect_alarm	a/utils.h	/^extern void connect_alarm(int signo);$/;"	p	signature:(int signo)
+connect_alarm	cluster_utils.h	/^extern void connect_alarm(int signo);$/;"	p	signature:(int signo)
+connect_alarm	include/utils.h	/^extern void connect_alarm(int signo);$/;"	p	signature:(int signo)
+copy_file	include/utils.h	/^extern int copy_file(const char *from_path, const char *to_path);$/;"	p	signature:(const char *from_path, const char *to_path)
+daemon_main	cluster_recv.c	/^void daemon_main()$/;"	f
+daemon_main	cluster_send.c	/^void daemon_main()$/;"	f
+dbg	a/utils.c	/^void dbg(char *fmt, ...)$/;"	f	signature:(char *fmt, ...)
+dbg	a/utils.h	/^extern void dbg(char *fmt, ...);$/;"	p	signature:(char *fmt, ...)
+dbg	include/utils.h	/^extern void dbg(char *fmt, ...);$/;"	p	signature:(char *fmt, ...)
+dbglog	a/utils.c	/^void dbglog(char *fmt, ...)$/;"	f	signature:(char *fmt, ...)
+dbglog	a/utils.h	/^extern void dbglog(char *fmt, ...);$/;"	p	signature:(char *fmt, ...)
+dbglog	include/utils.h	/^extern void dbglog(char *fmt, ...);$/;"	p	signature:(char *fmt, ...)
+debug	cluster_recv.c	/^int debug=FALSE;$/;"	v
+debug	cluster_send.c	/^int debug=FALSE;$/;"	v
+debug	main.c	/^int debug;$/;"	v
+debug	safe_cluster.c	/^int debug=FALSE;$/;"	v
+die	a/utils.c	/^void die(int status)$/;"	f	signature:(int status)
+die	a/utils.h	/^extern void die(int status);$/;"	p	signature:(int status)
+die	include/utils.h	/^extern void die(int status);$/;"	p	signature:(int status)
+do_backup	sync_conf.sh	/^function do_backup()$/;"	f
+do_backup_device_process	cluster_send.c	/^void do_backup_device_process(HB_PACKET *hb)$/;"	f	signature:(HB_PACKET *hb)
+do_backup_line_process	cluster_send.c	/^void do_backup_line_process(HB_PACKET *hb)$/;"	f	signature:(HB_PACKET *hb)
+do_backup_process	cluster_send.c	/^void do_backup_process(HB_PACKET *hb)$/;"	f	signature:(HB_PACKET *hb)
+do_int_process	cluster_send.c	/^void do_int_process(HB_PACKET *hb)$/;"	f	signature:(HB_PACKET *hb)
+do_log	cluster_utils.c	/^void do_log(const char *logbuf)$/;"	f	signature:(const char *logbuf)
+do_log	cluster_utils.h	/^extern void do_log(const char *logbuf);$/;"	p	signature:(const char *logbuf)
+do_master	sync_conf.sh	/^function do_master()$/;"	f
+do_master_device_process	cluster_send.c	/^void do_master_device_process(HB_PACKET *hb)$/;"	f	signature:(HB_PACKET *hb)
+do_master_line_process	cluster_send.c	/^void do_master_line_process(HB_PACKET *hb)$/;"	f	signature:(HB_PACKET *hb)
+do_master_process	cluster_send.c	/^void do_master_process(HB_PACKET *hb)$/;"	f	signature:(HB_PACKET *hb)
+do_quit	cluster_utils.c	/^void do_quit()  $/;"	f
+do_quit	cluster_utils.h	/^extern void do_quit();$/;"	p	signature:()
+do_save_conf	sync_conf.sh	/^function do_save_conf()$/;"	f
+do_sync_files	sync_conf.sh	/^function do_sync_files()$/;"	f
+do_vpn_process	cluster_send.c	/^void do_vpn_process(HB_PACKET *hb)$/;"	f	signature:(HB_PACKET *hb)
+do_vpn_restart	cluster_utils.c	/^int do_vpn_restart()$/;"	f
+do_vpn_restart	cluster_utils.h	/^extern int do_vpn_restart();$/;"	p	signature:()
+do_vpn_start	cluster_utils.c	/^int do_vpn_start()$/;"	f
+do_vpn_start	cluster_utils.h	/^extern int do_vpn_start();$/;"	p	signature:()
+do_vpn_stop	cluster_utils.c	/^int do_vpn_stop()$/;"	f
+do_vpn_stop	cluster_utils.h	/^extern int do_vpn_stop();$/;"	p	signature:()
+due_date	include/license.h	/^	char due_date[24];$/;"	m	struct:_license_info	access:public
+dynvpn_index	a/utils.c	/^char dynvpn_index[LineMaxLen];$/;"	v
+dynvpn_index	cluster_utils.c	/^static char dynvpn_index[LineMaxLen];$/;"	v	file:
+dynvpn_index_read	a/utils.c	/^int dynvpn_index_read(void)$/;"	f	signature:(void)
+dynvpn_index_read	cluster_utils.c	/^static int dynvpn_index_read(void)$/;"	f	file:	signature:(void)
+dynvpn_port	a/utils.c	/^short dynvpn_port;$/;"	v
+dynvpn_port	cluster_utils.c	/^static int dynvpn_port=INDEX_PORT;$/;"	v	file:
+enable_check	include/utils.h	/^extern int enable_check(FILE *file, const char *key, int default_type);$/;"	p	signature:(FILE *file, const char *key, int default_type)
+enable_check_file	include/utils.h	/^extern int enable_check_file(const char *filename, const char *key, int default_type);$/;"	p	signature:(const char *filename, const char *key, int default_type)
+enum_auth_mode	include/localdef.h	/^enum enum_auth_mode { AUTH_NONE, AUTH_TEXT, AUTH_MD5, AUTH_END };$/;"	g
+enum_mobile_types	include/localdef.h	/^enum enum_mobile_types {$/;"	g
+error	a/utils.c	/^void error(char *fmt, ...)$/;"	f	signature:(char *fmt, ...)
+error	a/utils.h	/^extern void error(char *fmt, ...);$/;"	p	signature:(char *fmt, ...)
+error	include/utils.h	/^extern void error(char *fmt, ...);$/;"	p	signature:(char *fmt, ...)
+fatal	a/utils.c	/^void fatal(char *fmt, ...)$/;"	f	signature:(char *fmt, ...)
+fatal	a/utils.h	/^extern void fatal(char *fmt, ...);$/;"	p	signature:(char *fmt, ...)
+fatal	include/utils.h	/^extern void fatal(char *fmt, ...);$/;"	p	signature:(char *fmt, ...)
+filename	include/adapter.h	/^    char filename[128]; \/\/ 操作文件名$/;"	m	struct:_conf_req	access:public
+first_time	cluster_send.c	/^static short  first_time=1;$/;"	v	file:
+g_down_time	cluster_utils.c	/^int   g_down_time=MIN_DOWN_TIME;$/;"	v
+g_hb_ip	cluster_utils.c	/^char  g_hb_ip[24];$/;"	v
+g_lan_dev	cluster_utils.c	/^char   g_lan_dev[8];$/;"	v
+g_lan_mac	cluster_utils.c	/^char   g_lan_mac[24];$/;"	v
+g_line_select	cluster_utils.c	/^char  g_line_select[24];	\/* line,device *\/$/;"	v
+g_mode	cluster_utils.c	/^short g_mode=CLUSTER_MODE_0;$/;"	v
+g_type	cluster_utils.c	/^short g_type=CLUSTER_TYPE_NONE;$/;"	v
+g_virtual_lan_enable	cluster_utils.c	/^int   g_virtual_lan_enable;$/;"	v
+g_virtual_lan_ip	cluster_utils.c	/^char  g_virtual_lan_ip[24];$/;"	v
+g_virtual_wan1_enable	cluster_utils.c	/^int	  g_virtual_wan1_enable;$/;"	v
+g_virtual_wan1_gateway	cluster_utils.c	/^char  g_virtual_wan1_gateway[24];$/;"	v
+g_virtual_wan1_ip	cluster_utils.c	/^char  g_virtual_wan1_ip[24];$/;"	v
+g_virtual_wan_enable	cluster_utils.c	/^int	  g_virtual_wan_enable;$/;"	v
+g_virtual_wan_gateway	cluster_utils.c	/^char  g_virtual_wan_gateway[24];$/;"	v
+g_virtual_wan_ip	cluster_utils.c	/^char  g_virtual_wan_ip[24];$/;"	v
+g_wan1_dev	cluster_utils.c	/^char   g_wan1_dev[8];$/;"	v
+g_wan1_mac	cluster_utils.c	/^char   g_wan1_mac[24];$/;"	v
+g_wan_dev	cluster_utils.c	/^char   g_wan_dev[8];$/;"	v
+g_wan_mac	cluster_utils.c	/^char   g_wan_mac[24];$/;"	v
+get_dev_info	cluster_utils.c	/^int get_dev_info(const char *conf_file)$/;"	f	signature:(const char *conf_file)
+get_dev_info	cluster_utils.h	/^extern int get_dev_info(const char *conf_file);$/;"	p	signature:(const char *conf_file)
+get_directory_size	include/utils.h	/^extern int get_directory_size(const char *dirname);$/;"	p	signature:(const char *dirname)
+get_file_lines	include/utils.h	/^extern int get_file_lines(const char *filename);$/;"	p	signature:(const char *filename)
+get_file_size	include/utils.h	/^extern int get_file_size(const char *filename);$/;"	p	signature:(const char *filename)
+get_ifaceindex	send_arp.c	/^int get_ifaceindex(int fd, const char *name) {$/;"	f	signature:(int fd, const char *name)
+get_int_info	include/utils.h	/^extern int get_int_info(char *value, char *dev_name, int mode);$/;"	p	signature:(char *value, char *dev_name, int mode)
+get_link_status	include/utils.h	/^extern int get_link_status(char *dev_name, int *link_status, int *link_speed, int *link_duplex);$/;"	p	signature:(char *dev_name, int *link_status, int *link_speed, int *link_duplex)
+get_mac	include/utils.h	/^extern int get_mac(char *dev_name, char *dev_mac, int mac_len);$/;"	p	signature:(char *dev_name, char *dev_mac, int mac_len)
+get_mac_addr	a/utils.c	/^int get_mac_addr(const char *devname, char *mac_addr)$/;"	f	signature:(const char *devname, char *mac_addr)
+get_mac_addr	a/utils.h	/^extern int get_mac_addr(const char *devname, char *mac_addr);$/;"	p	signature:(const char *devname, char *mac_addr)
+get_pid_from_file	include/utils.h	/^extern int get_pid_from_file(const char *pidfilename);$/;"	p	signature:(const char *pidfilename)
+get_profile	include/utils.h	/^extern int get_profile(FILE *profile, const char tag,const char *key, char *value);$/;"	p	signature:(FILE *profile, const char tag,const char *key, char *value)
+get_profile_from_file	include/utils.h	/^extern int get_profile_from_file(const char *profile_name, const char tag,const char *key, char *value);$/;"	p	signature:(const char *profile_name, const char tag,const char *key, char *value)
+get_profile_from_file_int	include/utils.h	/^extern int get_profile_from_file_int(const char *profile_name, const char tag,const char *key);$/;"	p	signature:(const char *profile_name, const char tag,const char *key)
+get_profile_int	include/utils.h	/^extern int get_profile_int(FILE *profile, const char tag,const char *key);$/;"	p	signature:(FILE *profile, const char tag,const char *key)
+get_profile_list	include/utils.h	/^extern int get_profile_list(FILE *profile, const char tag,const char *key, char *value);$/;"	p	signature:(FILE *profile, const char tag,const char *key, char *value)
+get_profile_long	include/utils.h	/^extern long get_profile_long(FILE *profile, const char tag,const char *key);$/;"	p	signature:(FILE *profile, const char tag,const char *key)
+get_section_value	include/utils.h	/^extern int get_section_value(char *string, char tag, int offset, char *value, int len);$/;"	p	signature:(char *string, char tag, int offset, char *value, int len)
+get_status	cluster_utils.c	/^int get_status(HB_PACKET *hb, int cluster_type)$/;"	f	signature:(HB_PACKET *hb, int cluster_type)
+get_status	cluster_utils.h	/^extern int get_status(HB_PACKET *hb, int cluster_type);$/;"	p	signature:(HB_PACKET *hb, int cluster_type)
+get_subnet	include/utils.h	/^extern int get_subnet(const char *ip, const char *netmask, char *subnet);$/;"	p	signature:(const char *ip, const char *netmask, char *subnet)
+get_subnet_int	include/utils.h	/^extern int get_subnet_int(const char *ip, int netmask, char *subnet);$/;"	p	signature:(const char *ip, int netmask, char *subnet)
+hex_and_ascii_print	include/utils.h	/^extern void hex_and_ascii_print(const char *cp, int length);$/;"	p	signature:(const char *cp, int length)
+id	include/adapter.h	/^    int id;     		\/\/ 协议ID: CONF_MODITY_REQ$/;"	m	struct:_conf_req	access:public
+id	include/adapter.h	/^    int id;     		\/\/ 协议ID: CONF_MODITY_REQ$/;"	m	struct:_conf_res	access:public
+ifindex	send_arp.c	/^    unsigned int ifindex;       \/* Interface index *\/	$/;"	m	struct:__anon1	file:	access:public
+ifname	send_arp.c	/^    char ifname[IF_NAMESIZ + 1];    \/* Interface name *\/$/;"	m	struct:__anon1	file:	access:public
+info	a/utils.c	/^void info(char *fmt, ...)$/;"	f	signature:(char *fmt, ...)
+info	a/utils.h	/^extern void info(char *fmt, ...);$/;"	p	signature:(char *fmt, ...)
+info	include/utils.h	/^extern void info(char *fmt, ...);$/;"	p	signature:(char *fmt, ...)
+init_read	cluster_recv.c	/^int init_read(char *conf_file)$/;"	f	signature:(char *conf_file)
+init_read	cluster_send.c	/^int init_read(char *conf_file)$/;"	f	signature:(char *conf_file)
+init_signal	cluster_recv.c	/^void init_signal()$/;"	f
+init_signal	cluster_send.c	/^void init_signal()$/;"	f
+int16	include/localdef.h	/^typedef short   int16;$/;"	t
+int32	include/localdef.h	/^typedef long    int32;$/;"	t
+int8	include/localdef.h	/^typedef char    int8;$/;"	t
+ip_add	cluster_utils.c	/^int ip_add(const char *dev, const char *ip)$/;"	f	signature:(const char *dev, const char *ip)
+ip_add	cluster_utils.h	/^extern int ip_add(const char *dev, const char *ip);$/;"	p	signature:(const char *dev, const char *ip)
+ip_add_boot_lan	cluster_utils.c	/^static int ip_add_boot_lan()$/;"	f	file:
+ip_add_boot_lan	cluster_utils.c	/^static int ip_add_boot_lan();$/;"	p	file:
+ip_add_boot_wan	cluster_utils.c	/^static int ip_add_boot_wan()$/;"	f	file:
+ip_add_boot_wan	cluster_utils.c	/^static int ip_add_boot_wan();$/;"	p	file:
+ip_add_static_route	cluster_utils.c	/^static int ip_add_static_route()$/;"	f	file:
+ip_add_static_route	cluster_utils.c	/^static int ip_add_static_route();$/;"	p	file:
+ip_check	cluster_utils.c	/^int ip_check(const char *dev, const char *ip)$/;"	f	signature:(const char *dev, const char *ip)
+ip_del	cluster_utils.c	/^int ip_del(const char *dev, const char *ip)$/;"	f	signature:(const char *dev, const char *ip)
+ip_del	cluster_utils.h	/^extern int ip_del(const char *dev, const char *ip);$/;"	p	signature:(const char *dev, const char *ip)
+ip_mac_broadcast	cluster_utils.c	/^int ip_mac_broadcast(const char *dev, char *ip_addr, char *mac_addr)$/;"	f	signature:(const char *dev, char *ip_addr, char *mac_addr)
+ip_mac_broadcast	cluster_utils.h	/^extern int ip_mac_broadcast(const char *dev, char *ip_addr, char *mac_addr);$/;"	p	signature:(const char *dev, char *ip_addr, char *mac_addr)
+ipsec_shotdown	cluster_utils.h	/^extern int ipsec_shotdown();$/;"	p	signature:()
+ipsec_shutdown	cluster_utils.c	/^int ipsec_shutdown()$/;"	f
+is_directory	include/utils.h	/^extern int is_directory(const char *dirname);$/;"	p	signature:(const char *dirname)
+is_link_file	include/utils.h	/^extern int is_link_file(const char *filename);$/;"	p	signature:(const char *filename)
+is_regular_file	include/utils.h	/^extern int is_regular_file(const char *filename);$/;"	p	signature:(const char *filename)
+is_running	include/utils.h	/^extern int is_running(const char *pidfilename, const char *cmdline);$/;"	p	signature:(const char *pidfilename, const char *cmdline)
+is_sock_file	include/utils.h	/^extern int is_sock_file(const char *filename);$/;"	p	signature:(const char *filename)
+key	include/adapter.h	/^    char key[1024]; 	\/\/ 定位key值$/;"	m	struct:_conf_req	access:public
+license_expired	include/license.h	/^extern int license_expired();$/;"	p	signature:()
+link_up	include/utils.h	/^extern int link_up(char *dev_name);$/;"	p	signature:(char *dev_name)
+log_write	a/utils.c	/^static void log_write(int level, char *buf)$/;"	f	file:	signature:(int level, char *buf)
+log_write	a/utils.c	/^static void log_write(int level, char *buf);$/;"	p	file:	signature:(int level, char *buf)
+logit	a/utils.c	/^static void logit(int level, char *fmt, va_list args)$/;"	f	file:	signature:(int level, char *fmt, va_list args)
+logit	a/utils.c	/^static void logit(int level, char *fmt, va_list args);$/;"	p	file:	signature:(int level, char *fmt, va_list args)
+m_arp_info	send_arp.c	/^} m_arp_info;$/;"	t	typeref:struct:__anon1	file:
+mac_packet	send_arp.c	/^int mac_packet(char *buffer, int len, unsigned char *src_mac, __be16 h_proto) {$/;"	f	signature:(char *buffer, int len, unsigned char *src_mac, __be16 h_proto)
+main	cluster_recv.c	/^int main(int argc, char **argv)$/;"	f	signature:(int argc, char **argv)
+main	cluster_send.c	/^int main(int argc, char **argv)$/;"	f	signature:(int argc, char **argv)
+main	main.c	/^int main(int argc, char **argv)$/;"	f	signature:(int argc, char **argv)
+main	safe_cluster.c	/^int main(int argc, char **argv)$/;"	f	signature:(int argc, char **argv)
+main	send_arp.c	/^int main(int argc, char *argv[]) {$/;"	f	signature:(int argc, char *argv[])
+main_loop	main.c	/^int main_loop()$/;"	f
+main_loop	safe_cluster.c	/^int main_loop()$/;"	f
+make_http_sync_conf_file	safe_cluster.c	/^static int make_http_sync_conf_file()$/;"	f	file:
+match_types	include/localdef.h	/^enum match_types {$/;"	g
+max	include/localdef.h	508;"	d
+min	include/localdef.h	509;"	d
+msg_type	cluster_utils.h	/^	uint8 msg_type;$/;"	m	struct:_hb_packet	access:public
+netmask_itoa	include/utils.h	/^extern int netmask_itoa(int netmask_int, char *netmask_str);$/;"	p	signature:(int netmask_int, char *netmask_str)
+notice	a/utils.c	/^void notice(char *fmt, ...)$/;"	f	signature:(char *fmt, ...)
+notice	a/utils.h	/^extern void notice(char *fmt, ...);$/;"	p	signature:(char *fmt, ...)
+notice	include/utils.h	/^extern void notice(char *fmt, ...);$/;"	p	signature:(char *fmt, ...)
+open_socket	a/utils.c	/^int open_socket(int timeout)$/;"	f	signature:(int timeout)
+open_socket	a/utils.h	/^extern int open_socket(int timeout);$/;"	p	signature:(int timeout)
+open_socket	cluster_utils.c	/^static int open_socket(int timeout)$/;"	f	file:	signature:(int timeout)
+opt	include/adapter.h	/^    int  opt; 			\/\/ 操作方式 详见 enum _enum_conf_opt;$/;"	m	struct:_conf_req	access:public
+parse_argvs	send_arp.c	/^void parse_argvs(m_arp_info *info, int fd, char *ip, char *mac, char *dev)$/;"	f	signature:(m_arp_info *info, int fd, char *ip, char *mac, char *dev)
+plus_notice	include/utils.h	/^extern void plus_notice(char *type);$/;"	p	signature:(char *type)
+pos	include/adapter.h	/^    int  pos; 			\/\/ 当操作方式为MOD_POS, 指定行数$/;"	m	struct:_conf_req	access:public
+print_content	a/utils.c	/^void print_content(const unsigned char *content, int len)$/;"	f	signature:(const unsigned char *content, int len)
+print_traffic	a/utils.c	/^void print_traffic(const char *buffer, int len)$/;"	f	signature:(const char *buffer, int len)
+print_traffic	a/utils.h	/^extern void print_traffic(const char *buffer, int len);$/;"	p	signature:(const char *buffer, int len)
+print_traffic	cluster_utils.c	/^void print_traffic(const char *buffer, int len)$/;"	f	signature:(const char *buffer, int len)
+print_traffic	cluster_utils.h	/^extern void print_traffic(const char *buffer, int len);$/;"	p	signature:(const char *buffer, int len)
+priority	include/adapter.h	/^    int  priority; 		\/\/ 操作优先级，详见 enum _enum_conf_priority$/;"	m	struct:_conf_req	access:public
+profile_operation	include/utils.h	/^extern int profile_operation(char *filename, const char tag, const char *key, char *value, int opt, int opt_argv);$/;"	p	signature:(char *filename, const char tag, const char *key, char *value, int opt, int opt_argv)
+profile_operation_int	include/utils.h	/^extern int profile_operation_int(char *filename, const char tag, const char *key, int value, int opt, int opt_argv);$/;"	p	signature:(char *filename, const char tag, const char *key, int value, int opt, int opt_argv)
+proto_types	include/localdef.h	/^enum proto_types {$/;"	g
+readable_timeo	a/utils.c	/^int readable_timeo(int fd, int sec)$/;"	f	signature:(int fd, int sec)
+readable_timeo	a/utils.h	/^extern int readable_timeo(int fd, int sec);$/;"	p	signature:(int fd, int sec)
+readable_timeo	cluster_utils.c	/^int readable_timeo(int fd, int sec)$/;"	f	signature:(int fd, int sec)
+readable_timeo	cluster_utils.h	/^extern int readable_timeo(int fd, int sec);$/;"	p	signature:(int fd, int sec)
+readable_timeout	include/utils.h	/^extern int readable_timeout(int fd, int sec);$/;"	p	signature:(int fd, int sec)
+reserver	cluster_utils.h	/^	uint8 reserver[8]; 	\/\/ reserver[16]$/;"	m	struct:_hb_packet	access:public
+route_add	cluster_utils.c	/^void route_add(const char *dst, const char *nexthop)$/;"	f	signature:(const char *dst, const char *nexthop)
+route_add	cluster_utils.h	/^extern void route_add(const char *dst, const char *nexthop);$/;"	p	signature:(const char *dst, const char *nexthop)
+route_check	cluster_utils.c	/^int route_check(const char *dst, const char *nexthop)$/;"	f	signature:(const char *dst, const char *nexthop)
+safe_cluster_start	safe_cluster.c	/^int safe_cluster_start()$/;"	f
+safe_cluster_stop	safe_cluster.c	/^int safe_cluster_stop()$/;"	f
+safe_get_profile	include/utils.h	/^extern int safe_get_profile(FILE *profile, const char tag,const char *key, char *value, int value_size);$/;"	p	signature:(FILE *profile, const char tag,const char *key, char *value, int value_size)
+safe_get_value	include/utils.h	/^extern int safe_get_value(char *s, int s_len, char tag, int pos, char *d, int d_len);$/;"	p	signature:(char *s, int s_len, char tag, int pos, char *d, int d_len)
+safe_kill	include/utils.h	/^extern void safe_kill(const char *pidfilename, const char *cmdline);$/;"	p	signature:(const char *pidfilename, const char *cmdline)
+sale_state	include/license.h	/^	int sale_state;$/;"	m	struct:_license_info	access:public
+save_status	cluster_utils.c	/^int save_status(HB_PACKET *hb, int alive_status)$/;"	f	signature:(HB_PACKET *hb, int alive_status)
+save_status	cluster_utils.h	/^extern int save_status(HB_PACKET *hb, int alive_status);$/;"	p	signature:(HB_PACKET *hb, int alive_status)
+send_to_adapter	include/adapter.h	/^extern int send_to_adapter(const char *sock_name, CONF_REQ *req, int size);$/;"	p	signature:(const char *sock_name, CONF_REQ *req, int size)
+showusage	cluster_recv.c	/^void showusage(char *prog)$/;"	f	signature:(char *prog)
+showusage	cluster_send.c	/^void showusage(char *prog)$/;"	f	signature:(char *prog)
+shut_down	cluster_recv.c	/^void shut_down(sig)$/;"	f
+shut_down	cluster_send.c	/^void shut_down(sig)$/;"	f
+sigHandler	cluster_recv.c	/^void sigHandler(int sig)$/;"	f	signature:(int sig)
+sigHandler	cluster_send.c	/^void sigHandler(int sig)$/;"	f	signature:(int sig)
+sin_addr	send_arp.c	/^	struct in_addr sin_addr;$/;"	m	struct:__anon1	typeref:struct:__anon1::in_addr	file:	access:public
+sin_brd	send_arp.c	/^	struct in_addr sin_brd;$/;"	m	struct:__anon1	typeref:struct:__anon1::in_addr	file:	access:public
+slprintf	a/utils.c	/^int slprintf(char *buf, int buflen, char *fmt, ...)$/;"	f	signature:(char *buf, int buflen, char *fmt, ...)
+slprintf	a/utils.h	/^extern int slprintf(char *buf, int buflen, char *fmt, ...);$/;"	p	signature:(char *buf, int buflen, char *fmt, ...)
+sockfd	cluster_recv.c	/^int sockfd=0;$/;"	v
+src_hw_addr	send_arp.c	/^	unsigned char src_hw_addr[6];$/;"	m	struct:__anon1	file:	access:public
+streq	include/localdef.h	505;"	d
+streq	local.h	106;"	d
+strlcat	a/utils.c	/^size_t strlcat(char *dest, const char *src, size_t len)$/;"	f	signature:(char *dest, const char *src, size_t len)
+strlcpy	a/utils.c	/^size_t strlcpy(char *dest, const char *src, size_t len)$/;"	f	signature:(char *dest, const char *src, size_t len)
+strmatch	include/localdef.h	506;"	d
+strmatch	local.h	107;"	d
+tag	include/adapter.h	/^    char tag; 			\/\/ 文件数据库,分隔符$/;"	m	struct:_conf_req	access:public
+touch_file	include/utils.h	/^extern int touch_file(char *name);$/;"	p	signature:(char *name)
+turns	cluster_send.c	/^static long   turns;$/;"	v	file:
+type	include/adapter.h	/^    int type;   		\/\/ 数据库操作类型, 详见 enum _enum_conf_type$/;"	m	struct:_conf_req	access:public
+uint16	include/localdef.h	/^typedef unsigned short uint16;$/;"	t
+uint32	include/localdef.h	/^typedef unsigned long  uint32;$/;"	t
+uint8	cluster_utils.h	/^typedef	unsigned char uint8;$/;"	t
+uint8	include/localdef.h	/^typedef unsigned char  uint8;$/;"	t
+usage	send_arp.c	/^void usage(char *name) {$/;"	f	signature:(char *name)
+valid_ip	include/utils.h	/^extern int valid_ip(const char *ip_addr);$/;"	p	signature:(const char *ip_addr)
+valid_ip_checksite	include/utils.h	/^extern int valid_ip_checksite(const char *ip_addr);$/;"	p	signature:(const char *ip_addr)
+valid_ip_subnet	include/utils.h	/^extern int valid_ip_subnet(char *addr, short format);$/;"	p	signature:(char *addr, short format)
+valid_netmask	include/utils.h	/^extern int valid_netmask(const char *netmask);$/;"	p	signature:(const char *netmask)
+valid_num	include/utils.h	/^extern int valid_num(char *s);$/;"	p	signature:(char *s)
+value	include/adapter.h	/^    char value[1024];  	\/\/ 文件数据库操作值，数据库系统时为执行的sql语句$/;"	m	struct:_conf_req	access:public
+virtual_func_status	cluster_utils.h	/^	uint8 virtual_func_status;$/;"	m	struct:_hb_packet	access:public
+virtual_ip_action	cluster_utils.c	/^void virtual_ip_action(int type, int vstatus, char *msg, short opt)$/;"	f	signature:(int type, int vstatus, char *msg, short opt)
+virtual_ip_action	cluster_utils.h	/^extern void virtual_ip_action(int type, int vstatus, char *msg, short opt);$/;"	p	signature:(int type, int vstatus, char *msg, short opt)
+virtual_ip_add	cluster_utils.c	/^void virtual_ip_add(int type, int vstatus, char *msg)$/;"	f	signature:(int type, int vstatus, char *msg)
+virtual_ip_add	cluster_utils.h	/^extern void virtual_ip_add(int type, int vstatus, char *msg);$/;"	p	signature:(int type, int vstatus, char *msg)
+virtual_ip_remove	cluster_utils.c	/^void virtual_ip_remove(int type, int vstatus, char *msg)$/;"	f	signature:(int type, int vstatus, char *msg)
+virtual_ip_remove	cluster_utils.h	/^extern void virtual_ip_remove(int type, int vstatus, char *msg);$/;"	p	signature:(int type, int vstatus, char *msg)
+virtual_lan1_status	cluster_utils.h	/^	uint8 virtual_lan1_status;$/;"	m	struct:_hb_packet	access:public
+virtual_lan_status	cluster_utils.h	/^	uint8 virtual_lan_status;$/;"	m	struct:_hb_packet	access:public
+virtual_vpn_start	cluster_utils.c	/^void virtual_vpn_start(int vpn_status, char *msg)$/;"	f	signature:(int vpn_status, char *msg)
+virtual_vpn_start	cluster_utils.h	/^extern void virtual_vpn_start(int vpn_status, char *msg);$/;"	p	signature:(int vpn_status, char *msg)
+virtual_vpn_stop	cluster_utils.c	/^void virtual_vpn_stop(int vpn_status, char *msg)$/;"	f	signature:(int vpn_status, char *msg)
+virtual_vpn_stop	cluster_utils.h	/^extern void virtual_vpn_stop(int vpn_status, char *msg);$/;"	p	signature:(int vpn_status, char *msg)
+virtual_wan1_status	cluster_utils.h	/^	uint8 virtual_wan1_status;$/;"	m	struct:_hb_packet	access:public
+virtual_wan2_status	cluster_utils.h	/^	uint8 virtual_wan2_status;$/;"	m	struct:_hb_packet	access:public
+virtual_wan3_status	cluster_utils.h	/^	uint8 virtual_wan3_status;$/;"	m	struct:_hb_packet	access:public
+virtual_wan_status	cluster_utils.h	/^	uint8 virtual_wan_status;$/;"	m	struct:_hb_packet	access:public
+vpn_action	cluster_utils.c	/^void vpn_action(int vpn_status, char *msg, short opt)$/;"	f	signature:(int vpn_status, char *msg, short opt)
+vpn_action	cluster_utils.h	/^extern void vpn_action(int vpn_status, char *msg, short opt);$/;"	p	signature:(int vpn_status, char *msg, short opt)
+vpn_check	cluster_utils.c	/^int vpn_check()$/;"	f
+vpn_daemon_check	cluster_utils.c	/^int vpn_daemon_check()$/;"	f
+vpn_need	cluster_recv.c	/^int vpn_need=TRUE;$/;"	v
+vpn_need	cluster_send.c	/^int vpn_need=TRUE;$/;"	v
+vpn_need	safe_cluster.c	/^int vpn_need=TRUE;$/;"	v
+vpn_status	cluster_utils.h	/^	uint8 vpn_status;$/;"	m	struct:_hb_packet	access:public
+vslprintf	a/utils.c	/^int vslprintf(char *buf, int buflen, char *fmt, va_list args)$/;"	f	signature:(char *buf, int buflen, char *fmt, va_list args)
+vslprintf	a/utils.c	/^static int vslprintf(char *buf, int buflen, char *fmt, va_list args);$/;"	p	file:	signature:(char *buf, int buflen, char *fmt, va_list args)
+wait_to_press_key	include/utils.h	/^extern void wait_to_press_key(const char *message,  int step_debug);$/;"	p	signature:(const char *message, int step_debug)
+wan1_status	cluster_utils.h	/^	uint8 wan1_status;$/;"	m	struct:_hb_packet	access:public
+wan2_status	cluster_utils.h	/^	uint8 wan2_status;$/;"	m	struct:_hb_packet	access:public
+wan3_status	cluster_utils.h	/^	uint8 wan3_status;$/;"	m	struct:_hb_packet	access:public
+wan_check	cluster_utils.c	/^int wan_check(int wan_type)$/;"	f	signature:(int wan_type)
+wan_check	cluster_utils.h	/^extern int wan_check();$/;"	p	signature:()
+wan_status	cluster_utils.h	/^	uint8 wan_status;$/;"	m	struct:_hb_packet	access:public
+warn	a/utils.c	/^void warn(char *fmt, ...)$/;"	f	signature:(char *fmt, ...)
+warn	a/utils.h	/^extern void warn(char *fmt, ...);$/;"	p	signature:(char *fmt, ...)
+warn	include/utils.h	/^extern void warn(char *fmt, ...);$/;"	p	signature:(char *fmt, ...)

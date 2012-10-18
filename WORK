@@ -1,0 +1,149 @@
+Add by leo@2006.04.26 for 
+
+
+MAS/BAK: equal , priority
+
+When MAS/BAK single WAN , should be fixed ip
+
+P	MAS:  Don't remove WAN Virtual IP 
+DONE	BAK: MUST NOT ENABLE WAN CheckSite
+		modify policyrouting when MAS up , BAK repeatly
+DONE 2006/06/06 16:43:56 ICEFLOW POLICY ROUTING: Default gw not existed!!, add WAN gw 100.100.100.1!
+
+MASTER/BACKUP   UNIQ MAC - lan_mac and wan_mac
+
+cluster_send.c  : MASTER send lan_mac, wan_mac -> BACKUP
+
+2006.06.01
+	MAS/BAK:
+		FOR totally hot backup, one WAN IP and one LAN IP
+	MODIFY:
+		[BACKUP]->[recv]->[when MASTER down] process changes
+	<<==========  old
+	recv:
+		2). when MASTER down
+			a). when local up.
+				Check Virtual_WAN, add it
+				Check Virtual_LAN, add it
+				Check Virtual_VPN, start it
+			b). when local down. 
+				do nothing
+	==========>>  now 
+	recv:
+		2). when MASTER down
+			Check Virtual_WAN, add it
+			Check Virtual_LAN, add it
+			Check Virtual_VPN, start it
+
+	==========================================================
+		
+	[SETTING]:
+	[CAUTION]:
+		1. BAK WAN MAC = MAS WAN MAC
+		2. BAK LAN MAC = MAS LAN MAC
+		3. BAK WAN IP = MAS WAN IP = Virtual WAN IP
+		4. BAK LAN IP = MAS LAN IP = Virtual LAN IP
+	
+#######################################
+
+1. MODE 1
+
+2. MODE 2 VPN-INT
+vpn        internet
+
+recv <-----   send
+
+send ----->   recv
+
+[VPN]:
+	send: Checking wan status
+	    1). when local up
+		Check Virtual_VPN, start it
+	    2). when local down
+		do nothing
+
+	recv:
+	    1). when INTERNET up
+                when local up
+                    when INTERNET Virtual LAN activate and local Virtual LAN activate
+	                Check Virtual_LAN, remove it
+                when local down
+                    when INTERNET VPN activate and local Virtual VPN activate
+	                Check VPN, stop it
+	    2). when INTERNET down . 
+	        a). when local up. 
+		    Check Virtual_LAN, add it
+	        b). when local down. do nothing
+
+[INT]:
+	send: Checking wan status
+	    1). when local up
+	        Check Virtual_LAN, add it
+	    2). when local down. do nothing
+	
+	recv:
+	    1). when VPN up
+		when VPN VPN activate and local VPN activate
+		    Check VPN, stop it
+
+                when local up
+		    do nothing
+                when local down
+                    when VPN Virtual LAN activate and local Virtual LAN activate
+	                Check Virtual_LAN, remove it
+
+	    2). when VPN down
+	        a). when local up. 
+		    Check Virtual_VPN, start it
+		b). when local down.  do nothing
+
+##################
+3. MODE 3   MASTER-BACKUP
+master        backup
+
+recv <-----   send
+
+send ----->   recv
+
+[MASTER]:
+	send: Checking wan status
+		1). when local up
+			Check Virtual_WAN, add it
+			Check Virtual_LAN, add it
+			Check Virtual_VPN, start it
+		2). when local down
+			do nothing
+
+	recv:
+		1). when BACKUP up
+			a). when local up. do nothing
+			b). when local down. 
+			        when INTERNET Virtual WAN activate and local Virtual WAN activate
+			    	    Check Virtual_WAN, remove it
+			        when INTERNET Virtual LAN activate and local Virtual LAN activate
+				    Check Virtual_LAN, remove it
+			        when INTERNET VPN activate and local Virtual VPN activate
+				    Check Virtual_VPN, stop it
+		2). when BACKUP down . do nothing
+
+[BACKUP]:
+	send: Checking wan status
+		do nothing
+	
+	recv:
+		1). when MASTER up
+			when MASTER Virtual WAN activate and local Virtual WAN activate
+			    Check Virtual_WAN, remove it
+			when MASTER Virtual LAN activate and local Virtual LAN activate
+			    Check Virtual_LAN, remove it
+			when MASTER  VPN activate and local Virtual WAN activate
+			    Check Virtual_VPN, stop it
+
+		2). when MASTER down
+			a). when local up.
+				Check Virtual_WAN, add it
+				Check Virtual_LAN, add it
+				Check Virtual_VPN, start it
+			b). when local down. 
+				do nothing
+##################

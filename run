@@ -1,0 +1,6 @@
+make && make install
+cp -v cluster_recv cluster_send safe_cluster /dist
+cd /ice/mod
+test -f /dist/c.tgz && rm /dist/c.tgz
+tar zcpf /dist/c.tgz cluster
+

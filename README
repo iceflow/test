@@ -1,0 +1,11 @@
+
+cluster_send:  send 2
+
+2006.06.15
+	add multiple wan checks,
+	if LOCAL Multiple WANs , send each status
+
+2006.05.09
+safe_plus: v1.0
+cluster_send: v1.0
+cluster_recv: v1.0
