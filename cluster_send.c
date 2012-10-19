@@ -40,6 +40,7 @@ void sigHandler(int sig)
 {
 	switch(sig) {
 		case SIGINT:
+		case SIGKILL:
 		case SIGTERM:
 			shut_down(sig);
 			break;
@@ -958,6 +959,7 @@ int main(int argc, char **argv)
 	daemon_main();
 
 	do_quit();
+    
 
 	return 0;
 }
